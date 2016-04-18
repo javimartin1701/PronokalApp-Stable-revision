@@ -158,13 +158,17 @@
     pesoPerder.text=resultadot3;
     duracion.text=resultadot4;
     
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
+    
+    NSString *spais=countryCode;
     
     
-    
-    NSString *website = [NSString stringWithFormat:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f", saltura, speso, sedad];
+    NSString *website = [NSString stringWithFormat:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f&pais=%@", saltura, speso, sedad, spais];
     //urlGrafica.text=website;
     
-    //NSString *website = @"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33";
+    //NSString *website = @"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33&&pais=countryCode";
     NSURL *url = [NSURL URLWithString:website];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
@@ -336,9 +340,17 @@
     duracion.text=resultadot4;
     
     
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
+    
+    NSString *spais=countryCode;
+
     
     
-    NSString *website = [NSString stringWithFormat:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f", saltura, speso, sedad];
+    
+    
+    NSString *website = [NSString stringWithFormat:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/svg/chart.php?sexo=h&altura=%.1f&peso=%.1f&edad=%.f&pais=%@", saltura, speso, sedad, spais];
     //urlGrafica.text=website;
     
     //NSString *website = @"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33";
