@@ -21,7 +21,7 @@
     
     // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
     
-    NSURL *url = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/apoyo.mp4"];
+    NSURL *url = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/apoyo.mp4"];
     
     mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
     [mpc setMovieSourceType:MPMovieSourceTypeFile];

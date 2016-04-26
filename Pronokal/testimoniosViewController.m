@@ -26,7 +26,7 @@
 -(IBAction)play:(id)sender{
     
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio1.mp4"];  // sample url
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio1.mp4"];  // sample url
     MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
     
     // Logic for play movie in landscape
@@ -48,7 +48,7 @@
    // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
   
     /*
-    NSURL *url = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio1.mp4"];
+    NSURL *url = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio1.mp4"];
    
     mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
     [mpc setMovieSourceType:MPMovieSourceTypeFile];
@@ -66,7 +66,7 @@
 -(IBAction)play2:(id)sender{
     
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio2.mp4"];  // sample url
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio2.mp4"];  // sample url
     MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
     
     // Logic for play movie in landscape
@@ -82,7 +82,7 @@
     
     /*
     //NSString *stringPath2=[[NSBundle mainBundle]pathForResource:@"ingridconsuelo" ofType:@"mp4"];
-    NSURL *url2 = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio2.mp4"];
+    NSURL *url2 = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio2.mp4"];
     
     mpc2=[[MPMoviePlayerController alloc] initWithContentURL:url2];
     [mpc2 setMovieSourceType:MPMovieSourceTypeFile];
@@ -96,7 +96,7 @@
 
 -(IBAction)play3:(id)sender{
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio3.mp4"];  // sample url
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio3.mp4"];  // sample url
     MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
     
     // Logic for play movie in landscape
@@ -112,7 +112,7 @@
     
     /*
    // NSString *stringPath3=[[NSBundle mainBundle]pathForResource:@"anamarta" ofType:@"mp4"];
-    NSURL *url3 = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio3.mp4"];
+    NSURL *url3 = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio3.mp4"];
     
     mpc3=[[MPMoviePlayerController alloc] initWithContentURL:url3];
     [mpc3 setMovieSourceType:MPMovieSourceTypeFile];
@@ -126,7 +126,7 @@
 
 -(IBAction)play4:(id)sender{
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio4.mp4"];  // sample url
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];  // sample url
     MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
     
     // Logic for play movie in landscape
@@ -141,7 +141,7 @@
     
     /*
     //NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
-    NSURL *url4 = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/testimonio4.mp4"];
+    NSURL *url4 = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];
     
     mpc4=[[MPMoviePlayerController alloc] initWithContentURL:url4];
 

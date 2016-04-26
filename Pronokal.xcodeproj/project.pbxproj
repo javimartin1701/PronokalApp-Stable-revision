@@ -962,7 +962,7 @@
 				TargetAttributes = {
 					8EC69B9D1BC56B6E00B7149E = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = TD7FRFAWL8;
+						DevelopmentTeam = 7GBZ97Z277;
 					};
 					8EC69BB61BC56B6F00B7149E = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -1397,7 +1397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: PNK DISTRIBUTION INTERNATIONALE, S.A. (7GBZ97Z277)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PNK DISTRIBUTION INTERNATIONALE, S.A. (7GBZ97Z277)";
 				INFOPLIST_FILE = Pronokal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

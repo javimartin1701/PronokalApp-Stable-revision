@@ -72,7 +72,7 @@
         NSLog(@"REPUBLICA DOM");
     }
     else if ([countryCode isEqualToString:@"MX"]){
-        [self openMapToLatitude:19.393664	 longitude:-99.1767865];
+        [self openMapToLatitude:19.3696971	 longitude:-99.1798991];
         NSLog(@"MEXICO");
     }
 

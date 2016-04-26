@@ -19,7 +19,7 @@
 
 -(IBAction)play:(id)sender{
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/controlmedico.mp4"];  // sample url
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/controlmedico.mp4"];  // sample url
     MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
     
     // Logic for play movie in landscape
@@ -35,7 +35,7 @@
     /*
     // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
     
-    NSURL *url = [NSURL URLWithString:@"http://prepronokalgroupappcom.hostings.nexica.net/pnkv/controlmedico.mp4"];
+    NSURL *url = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/controlmedico.mp4"];
     
     mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
     [mpc setMovieSourceType:MPMovieSourceTypeFile];
