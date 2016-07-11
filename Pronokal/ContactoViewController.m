@@ -72,7 +72,7 @@
         NSLog(@"REPUBLICA DOM");
     }
     else if ([countryCode isEqualToString:@"MX"]){
-        [self openMapToLatitude:19.3696971	 longitude:-99.1798991];
+        [self openMapToLatitude:19.3696996	 longitude:-99.1788074];
         NSLog(@"MEXICO");
     }
 
@@ -204,6 +204,7 @@
         NSLog(@"ARGENTINA");
     }
     else if ([countryCode isEqualToString:@"UY"]){
+        llegarGroup.hidden=YES;
         textoUrugay.hidden=NO;
         NSLog(@"URUGAY");
     }
