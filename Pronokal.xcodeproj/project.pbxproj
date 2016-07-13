@@ -33,6 +33,31 @@
 		04013C411D36819B00344073 /* tuto1_v4_1_pt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C2A1D36819B00344073 /* tuto1_v4_1_pt.jpg */; };
 		04013C421D36819B00344073 /* tuto2_v4_r_pt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C2B1D36819B00344073 /* tuto2_v4_r_pt.jpg */; };
 		04013C431D36819B00344073 /* tuto3_v4_r2_pt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C2C1D36819B00344073 /* tuto3_v4_r2_pt.jpg */; };
+		04013C621D36A25700344073 /* actividad1a_rev2_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C481D36A25700344073 /* actividad1a_rev2_v4_1_br.jpg */; };
+		04013C631D36A25700344073 /* actividad2a_rev_v4_2_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C491D36A25700344073 /* actividad2a_rev_v4_2_br.jpg */; };
+		04013C641D36A25700344073 /* calc1-m2b_rev_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C4A1D36A25700344073 /* calc1-m2b_rev_v4_1_br.jpg */; };
+		04013C651D36A25700344073 /* coaching-a2_v4_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C4B1D36A25700344073 /* coaching-a2_v4_r_br.jpg */; };
+		04013C661D36A25700344073 /* coaching1_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C4C1D36A25700344073 /* coaching1_v4_1_br.jpg */; };
+		04013C671D36A25700344073 /* control1a_rev_v4_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C4D1D36A25700344073 /* control1a_rev_v4_br.jpg */; };
+		04013C681D36A25700344073 /* control2a_rev_v4_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C4E1D36A25700344073 /* control2a_rev_v4_br.jpg */; };
+		04013C691D36A25700344073 /* home-pre_rev_v4_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C4F1D36A25700344073 /* home-pre_rev_v4_br.jpg */; };
+		04013C6B1D36A25700344073 /* iconos_zoom_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C511D36A25700344073 /* iconos_zoom_br.jpg */; };
+		04013C6C1D36A25700344073 /* nutricion-1a_rev2_v4_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C521D36A25700344073 /* nutricion-1a_rev2_v4_br.jpg */; };
+		04013C6D1D36A25700344073 /* nutricion-2a_rev_v4_1_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C531D36A25700344073 /* nutricion-2a_rev_v4_1_r_br.jpg */; };
+		04013C6E1D36A25700344073 /* paso1_rev_v4_1_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C541D36A25700344073 /* paso1_rev_v4_1_r_br.jpg */; };
+		04013C6F1D36A25700344073 /* paso2_rev_v4_1bis_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C551D36A25700344073 /* paso2_rev_v4_1bis_r_br.jpg */; };
+		04013C701D36A25700344073 /* paso3_rev_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C561D36A25700344073 /* paso3_rev_v4_1_br.jpg */; };
+		04013C711D36A25700344073 /* paso4_rev_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C571D36A25700344073 /* paso4_rev_v4_1_br.jpg */; };
+		04013C721D36A25700344073 /* PNK-1a_rev_v4_1_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C581D36A25700344073 /* PNK-1a_rev_v4_1_r_br.jpg */; };
+		04013C731D36A25700344073 /* PNK-2a_rev2_v4_1_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C591D36A25700344073 /* PNK-2a_rev2_v4_1_1_br.jpg */; };
+		04013C741D36A25700344073 /* PNK-3aa_rev_v4_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C5A1D36A25700344073 /* PNK-3aa_rev_v4_r_br.jpg */; };
+		04013C751D36A25700344073 /* resPesIda2l_rev_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C5B1D36A25700344073 /* resPesIda2l_rev_br.jpg */; };
+		04013C761D36A25700344073 /* resultado_test_v4_r2_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C5C1D36A25700344073 /* resultado_test_v4_r2_br.jpg */; };
+		04013C771D36A25700344073 /* resultadoimc_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C5D1D36A25700344073 /* resultadoimc_br.jpg */; };
+		04013C781D36A25700344073 /* testimonios1b_rev2_v4_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C5E1D36A25700344073 /* testimonios1b_rev2_v4_br.jpg */; };
+		04013C791D36A25700344073 /* tuto1_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C5F1D36A25700344073 /* tuto1_v4_1_br.jpg */; };
+		04013C7A1D36A25700344073 /* tuto2_v4_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C601D36A25700344073 /* tuto2_v4_r_br.jpg */; };
+		04013C7B1D36A25700344073 /* tuto3_v4_r2_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C611D36A25700344073 /* tuto3_v4_r2_br.jpg */; };
 		042F68FE1D2E699C004980E7 /* tuto1_v4_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042F69001D2E699C004980E7 /* tuto1_v4_1.jpg */; };
 		042F69061D2E6B29004980E7 /* boton_tutorial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042F69081D2E6B29004980E7 /* boton_tutorial.jpg */; };
 		042F690B1D2E6B4D004980E7 /* tuto1_v4_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042F690D1D2E6B4D004980E7 /* tuto1_v4_1.jpg */; };
@@ -353,6 +378,33 @@
 		04013C2A1D36819B00344073 /* tuto1_v4_1_pt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto1_v4_1_pt.jpg; sourceTree = "<group>"; };
 		04013C2B1D36819B00344073 /* tuto2_v4_r_pt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto2_v4_r_pt.jpg; sourceTree = "<group>"; };
 		04013C2C1D36819B00344073 /* tuto3_v4_r2_pt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto3_v4_r2_pt.jpg; sourceTree = "<group>"; };
+		04013C451D3697F300344073 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		04013C461D36981000344073 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "pt-BR"; path = "pt-BR.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		04013C481D36A25700344073 /* actividad1a_rev2_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actividad1a_rev2_v4_1_br.jpg; sourceTree = "<group>"; };
+		04013C491D36A25700344073 /* actividad2a_rev_v4_2_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actividad2a_rev_v4_2_br.jpg; sourceTree = "<group>"; };
+		04013C4A1D36A25700344073 /* calc1-m2b_rev_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-m2b_rev_v4_1_br.jpg"; sourceTree = "<group>"; };
+		04013C4B1D36A25700344073 /* coaching-a2_v4_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coaching-a2_v4_r_br.jpg"; sourceTree = "<group>"; };
+		04013C4C1D36A25700344073 /* coaching1_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coaching1_v4_1_br.jpg; sourceTree = "<group>"; };
+		04013C4D1D36A25700344073 /* control1a_rev_v4_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = control1a_rev_v4_br.jpg; sourceTree = "<group>"; };
+		04013C4E1D36A25700344073 /* control2a_rev_v4_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = control2a_rev_v4_br.jpg; sourceTree = "<group>"; };
+		04013C4F1D36A25700344073 /* home-pre_rev_v4_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home-pre_rev_v4_br.jpg"; sourceTree = "<group>"; };
+		04013C511D36A25700344073 /* iconos_zoom_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconos_zoom_br.jpg; sourceTree = "<group>"; };
+		04013C521D36A25700344073 /* nutricion-1a_rev2_v4_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nutricion-1a_rev2_v4_br.jpg"; sourceTree = "<group>"; };
+		04013C531D36A25700344073 /* nutricion-2a_rev_v4_1_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nutricion-2a_rev_v4_1_r_br.jpg"; sourceTree = "<group>"; };
+		04013C541D36A25700344073 /* paso1_rev_v4_1_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso1_rev_v4_1_r_br.jpg; sourceTree = "<group>"; };
+		04013C551D36A25700344073 /* paso2_rev_v4_1bis_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso2_rev_v4_1bis_r_br.jpg; sourceTree = "<group>"; };
+		04013C561D36A25700344073 /* paso3_rev_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso3_rev_v4_1_br.jpg; sourceTree = "<group>"; };
+		04013C571D36A25700344073 /* paso4_rev_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso4_rev_v4_1_br.jpg; sourceTree = "<group>"; };
+		04013C581D36A25700344073 /* PNK-1a_rev_v4_1_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-1a_rev_v4_1_r_br.jpg"; sourceTree = "<group>"; };
+		04013C591D36A25700344073 /* PNK-2a_rev2_v4_1_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-2a_rev2_v4_1_1_br.jpg"; sourceTree = "<group>"; };
+		04013C5A1D36A25700344073 /* PNK-3aa_rev_v4_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-3aa_rev_v4_r_br.jpg"; sourceTree = "<group>"; };
+		04013C5B1D36A25700344073 /* resPesIda2l_rev_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resPesIda2l_rev_br.jpg; sourceTree = "<group>"; };
+		04013C5C1D36A25700344073 /* resultado_test_v4_r2_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultado_test_v4_r2_br.jpg; sourceTree = "<group>"; };
+		04013C5D1D36A25700344073 /* resultadoimc_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultadoimc_br.jpg; sourceTree = "<group>"; };
+		04013C5E1D36A25700344073 /* testimonios1b_rev2_v4_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonios1b_rev2_v4_br.jpg; sourceTree = "<group>"; };
+		04013C5F1D36A25700344073 /* tuto1_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto1_v4_1_br.jpg; sourceTree = "<group>"; };
+		04013C601D36A25700344073 /* tuto2_v4_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto2_v4_r_br.jpg; sourceTree = "<group>"; };
+		04013C611D36A25700344073 /* tuto3_v4_r2_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto3_v4_r2_br.jpg; sourceTree = "<group>"; };
 		042F68FD1D2E6974004980E7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		042F68FF1D2E699C004980E7 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = es; path = es.lproj/tuto1_v4_1.jpg; sourceTree = "<group>"; };
 		042F69041D2E6A74004980E7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -734,6 +786,38 @@
 			name = ImagenesPT;
 			sourceTree = "<group>";
 		};
+		04013C471D36A23900344073 /* ImagenesBR */ = {
+			isa = PBXGroup;
+			children = (
+				04013C481D36A25700344073 /* actividad1a_rev2_v4_1_br.jpg */,
+				04013C491D36A25700344073 /* actividad2a_rev_v4_2_br.jpg */,
+				04013C4A1D36A25700344073 /* calc1-m2b_rev_v4_1_br.jpg */,
+				04013C4B1D36A25700344073 /* coaching-a2_v4_r_br.jpg */,
+				04013C4C1D36A25700344073 /* coaching1_v4_1_br.jpg */,
+				04013C4D1D36A25700344073 /* control1a_rev_v4_br.jpg */,
+				04013C4E1D36A25700344073 /* control2a_rev_v4_br.jpg */,
+				04013C4F1D36A25700344073 /* home-pre_rev_v4_br.jpg */,
+				04013C511D36A25700344073 /* iconos_zoom_br.jpg */,
+				04013C521D36A25700344073 /* nutricion-1a_rev2_v4_br.jpg */,
+				04013C531D36A25700344073 /* nutricion-2a_rev_v4_1_r_br.jpg */,
+				04013C541D36A25700344073 /* paso1_rev_v4_1_r_br.jpg */,
+				04013C551D36A25700344073 /* paso2_rev_v4_1bis_r_br.jpg */,
+				04013C561D36A25700344073 /* paso3_rev_v4_1_br.jpg */,
+				04013C571D36A25700344073 /* paso4_rev_v4_1_br.jpg */,
+				04013C581D36A25700344073 /* PNK-1a_rev_v4_1_r_br.jpg */,
+				04013C591D36A25700344073 /* PNK-2a_rev2_v4_1_1_br.jpg */,
+				04013C5A1D36A25700344073 /* PNK-3aa_rev_v4_r_br.jpg */,
+				04013C5B1D36A25700344073 /* resPesIda2l_rev_br.jpg */,
+				04013C5C1D36A25700344073 /* resultado_test_v4_r2_br.jpg */,
+				04013C5D1D36A25700344073 /* resultadoimc_br.jpg */,
+				04013C5E1D36A25700344073 /* testimonios1b_rev2_v4_br.jpg */,
+				04013C5F1D36A25700344073 /* tuto1_v4_1_br.jpg */,
+				04013C601D36A25700344073 /* tuto2_v4_r_br.jpg */,
+				04013C611D36A25700344073 /* tuto3_v4_r2_br.jpg */,
+			);
+			name = ImagenesBR;
+			sourceTree = "<group>";
+		};
 		042F69031D2E69C5004980E7 /* ImagenesFR */ = {
 			isa = PBXGroup;
 			children = (
@@ -826,6 +910,7 @@
 		8EC69BA01BC56B6E00B7149E /* Pronokal */ = {
 			isa = PBXGroup;
 			children = (
+				04013C471D36A23900344073 /* ImagenesBR */,
 				04013C0F1D3678C900344073 /* ImagenesPT */,
 				04D50E0F1D33A7100018A5BA /* ImagenesEN */,
 				042F69031D2E69C5004980E7 /* ImagenesFR */,
@@ -1268,6 +1353,7 @@
 			files = (
 				8ED9F40B1BFE4A2F0076FA3F /* coaching-a2_v4.jpg in Resources */,
 				8EC69BDD1BC57C9A00B7149E /* menu.png in Resources */,
+				04013C701D36A25700344073 /* paso3_rev_v4_1_br.jpg in Resources */,
 				0473AFC31D33F4D600F700D6 /* tuto3_v4_r2_en.jpg in Resources */,
 				04013C421D36819B00344073 /* tuto2_v4_r_pt.jpg in Resources */,
 				042F69161D2E6CC0004980E7 /* iconos_zoom.jpg in Resources */,
@@ -1318,6 +1404,7 @@
 				8ED9F4071BFE4A2F0076FA3F /* actividad1a_rev2_v4.jpg in Resources */,
 				8E50DCDD1C03351A00F05A68 /* fondoGrafica2_v4_1.jpg in Resources */,
 				042F69061D2E6B29004980E7 /* boton_tutorial.jpg in Resources */,
+				04013C631D36A25700344073 /* actividad2a_rev_v4_2_br.jpg in Resources */,
 				04D50D8F1D2FBCE20018A5BA /* PNK-2a_rev2_v4_1_1.jpg in Resources */,
 				8E472D461BEB6FCC00DA903A /* actividad2a.jpg in Resources */,
 				04D50D8A1D2FBCAF0018A5BA /* PNK-2a_rev2_v4_1_1.jpg in Resources */,
@@ -1331,6 +1418,7 @@
 				8ED9F4121BFE4A2F0076FA3F /* paso1_rev_v4.jpg in Resources */,
 				04013C431D36819B00344073 /* tuto3_v4_r2_pt.jpg in Resources */,
 				04D50DE21D3398010018A5BA /* paso2_rev_v4_1bis_r.jpg in Resources */,
+				04013C6C1D36A25700344073 /* nutricion-1a_rev2_v4_br.jpg in Resources */,
 				8E2E8AC91BF5FA770019B4B5 /* 180.png in Resources */,
 				8E2E8AC71BF5FA770019B4B5 /* 87.png in Resources */,
 				8EB7120A1BE9171C0045EDE5 /* boton_actividad2.jpg in Resources */,
@@ -1361,6 +1449,7 @@
 				0473AFB61D33F4D600F700D6 /* nutricion-2a_rev_v4_1_r_en.jpg in Resources */,
 				8EE1F2611BD00BBA007A3D73 /* control1.jpg in Resources */,
 				8E472D2C1BEA223900DA903A /* calc1-m2b.jpg in Resources */,
+				04013C6E1D36A25700344073 /* paso1_rev_v4_1_r_br.jpg in Resources */,
 				04707FC01C6A6D0F003A8825 /* paso2_rev_v4_1bis.jpg in Resources */,
 				8EB712081BE9167B0045EDE5 /* boton_apoyo2.jpg in Resources */,
 				8E2E8AAD1BF4BCB50019B4B5 /* tuto3.jpg in Resources */,
@@ -1369,6 +1458,7 @@
 				04D50E041D339A030018A5BA /* resultado_test_v4_r2.jpg in Resources */,
 				04013C411D36819B00344073 /* tuto1_v4_1_pt.jpg in Resources */,
 				04A017661CC414F100B49EAA /* texto_contacto3.png in Resources */,
+				04013C711D36A25700344073 /* paso4_rev_v4_1_br.jpg in Resources */,
 				04D50DEB1D3398830018A5BA /* resultado_test_v4_r2.jpg in Resources */,
 				8E2E8A941BF38F460019B4B5 /* actividad2a_rev.jpg in Resources */,
 				04BB112C1C7B35CC00E07CBC /* calc1-m2_1.jpg in Resources */,
@@ -1377,12 +1467,14 @@
 				8ED9F41B1BFE4A2F0076FA3F /* tuto3_v4.jpg in Resources */,
 				8E2E8A9D1BF393FC0019B4B5 /* paso3_rev.jpg in Resources */,
 				8E50DCEE1C046B8B00F05A68 /* paso1_rev_v4_1.jpg in Resources */,
+				04013C791D36A25700344073 /* tuto1_v4_1_br.jpg in Resources */,
 				8EC69BDF1BC57C9A00B7149E /* menu@3x.png in Resources */,
 				0473AFBF1D33F4D600F700D6 /* resultadoimc_en.jpg in Resources */,
 				04D50D791D2FB6940018A5BA /* resPesIda2l_rev.jpg in Resources */,
 				8E2E8AA01BF3970A0019B4B5 /* PNK-2a_rev2.jpg in Resources */,
 				04013C2E1D36819B00344073 /* actividad2a_rev_v4_2_pt.jpg in Resources */,
 				8EE1F24D1BCEACFF007A3D73 /* PNK-1.jpg in Resources */,
+				04013C641D36A25700344073 /* calc1-m2b_rev_v4_1_br.jpg in Resources */,
 				04013C311D36819B00344073 /* coaching1_v4_1_pt.jpg in Resources */,
 				042F69191D2E6DDB004980E7 /* tuto2_v4_r.jpg in Resources */,
 				04013C131D3678EA00344073 /* iconos_zoom_pt.jpg in Resources */,
@@ -1390,10 +1482,12 @@
 				8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */,
 				04D50E0C1D33A53C0018A5BA /* home-pre_rev_v4.jpg in Resources */,
 				8E2E8A7A1BECB1B90019B4B5 /* icon-58.png in Resources */,
+				04013C751D36A25700344073 /* resPesIda2l_rev_br.jpg in Resources */,
 				04D50DB41D33913D0018A5BA /* actividad2a_rev_v4_2.jpg in Resources */,
 				04D50D751D2FB68A0018A5BA /* resPesIda2l_rev.jpg in Resources */,
 				8E50DCE31C033A2500F05A68 /* actividad2a_rev_v4_1.jpg in Resources */,
 				8EC69C0D1BC66D8D00B7149E /* logo_texto.jpg in Resources */,
+				04013C681D36A25700344073 /* control2a_rev_v4_br.jpg in Resources */,
 				8ED9F4111BFE4A2F0076FA3F /* nutricion-2a_rev_v4.jpg in Resources */,
 				8E50DCE51C033AA000F05A68 /* actividad2a_rev_v4_1_1.jpg in Resources */,
 				04013C2F1D36819B00344073 /* calc1-m2b_rev_v4_1_pt.jpg in Resources */,
@@ -1410,6 +1504,7 @@
 				04013C3A1D36819B00344073 /* PNK-1a_rev_v4_1_r_pt.jpg in Resources */,
 				04013C381D36819B00344073 /* paso3_rev_v4_1_pt.jpg in Resources */,
 				8E2E8A881BF24C920019B4B5 /* PNK-3aa_rev.jpg in Resources */,
+				04013C761D36A25700344073 /* resultado_test_v4_r2_br.jpg in Resources */,
 				8ED9F41A1BFE4A2F0076FA3F /* tuto2_v4.jpg in Resources */,
 				8E2E8A721BEBA9D30019B4B5 /* home-pre.jpg in Resources */,
 				8EC69C2F1BCD101D00B7149E /* boton_peso.jpg in Resources */,
@@ -1418,6 +1513,7 @@
 				8EE1F24F1BCEACFF007A3D73 /* PNK-3.jpg in Resources */,
 				8EE1F24E1BCEACFF007A3D73 /* PNK-2.jpg in Resources */,
 				8E2E8AC31BF5F6D90019B4B5 /* launch.png in Resources */,
+				04013C7B1D36A25700344073 /* tuto3_v4_r2_br.jpg in Resources */,
 				04D50DCC1D3395B00018A5BA /* control2a_rev_v4.jpg in Resources */,
 				8EE1F2751BD4131B007A3D73 /* testimonios1.jpg in Resources */,
 				8ED9F4081BFE4A2F0076FA3F /* actividad2a_rev_v4.jpg in Resources */,
@@ -1425,6 +1521,9 @@
 				0473AFC21D33F4D600F700D6 /* tuto2_v4_r_en.jpg in Resources */,
 				04D50E071D33A5080018A5BA /* home-pre_rev_v4.jpg in Resources */,
 				0473AFBE1D33F4D600F700D6 /* resultado_test_v4_r2_en.jpg in Resources */,
+				04013C661D36A25700344073 /* coaching1_v4_1_br.jpg in Resources */,
+				04013C721D36A25700344073 /* PNK-1a_rev_v4_1_r_br.jpg in Resources */,
+				04013C6F1D36A25700344073 /* paso2_rev_v4_1bis_r_br.jpg in Resources */,
 				8E0515771BE3C72F00E26054 /* testtext2.jpg in Resources */,
 				0473AFC11D33F4D600F700D6 /* tuto1_v4_1_en.jpg in Resources */,
 				8E672AE31BD64B8E00B8D12F /* flecha.png in Resources */,
@@ -1438,8 +1537,10 @@
 				0473AFBD1D33F4D600F700D6 /* resPesIda2l_rev_en.jpg in Resources */,
 				8E2E8A8C1BF25C4D0019B4B5 /* control2a_rev.jpg in Resources */,
 				04013C301D36819B00344073 /* coaching-a2_v4_r_pt.jpg in Resources */,
+				04013C621D36A25700344073 /* actividad1a_rev2_v4_1_br.jpg in Resources */,
 				042F690E1D2E6B57004980E7 /* boton_tutorial.jpg in Resources */,
 				0473AFB11D33F4D600F700D6 /* coaching-a2_v4_r_en.jpg in Resources */,
+				04013C741D36A25700344073 /* PNK-3aa_rev_v4_r_br.jpg in Resources */,
 				04D50DF51D33990A0018A5BA /* paso2_rev_v4_1bis_r.jpg in Resources */,
 				8ED9F4131BFE4A2F0076FA3F /* paso2_rev_v4.jpg in Resources */,
 				8E472D3E1BEA7BDD00DA903A /* control2a.jpg in Resources */,
@@ -1447,6 +1548,7 @@
 				0473AFB01D33F4D600F700D6 /* calc1-m2b_rev_v4_1_en.jpg in Resources */,
 				8EC69C0F1BC6737300B7149E /* texto-contacto.png in Resources */,
 				8EC69C181BC6A58F00B7149E /* llamadas.png in Resources */,
+				04013C7A1D36A25700344073 /* tuto2_v4_r_br.jpg in Resources */,
 				04D50D9F1D2FBEF40018A5BA /* nutricion-1a_rev2_v4.jpg in Resources */,
 				8E2E8AA21BF3B0E70019B4B5 /* boton_peso_rev.jpg in Resources */,
 				8E2E8ABF1BF4E62C0019B4B5 /* icon-120_rev.png in Resources */,
@@ -1454,6 +1556,7 @@
 				04D50D7A1D2FBA400018A5BA /* testimonios1b_rev2_v4.jpg in Resources */,
 				04D50D651D2F9AF00018A5BA /* calc1-m2b_rev_v4_1.jpg in Resources */,
 				8E472D2B1BEA223900DA903A /* calc1-h2b.jpg in Resources */,
+				04013C731D36A25700344073 /* PNK-2a_rev2_v4_1_1_br.jpg in Resources */,
 				8ED9F4161BFE4A2F0076FA3F /* PNK-1a_rev_v4.jpg in Resources */,
 				8E50DCEF1C046B8B00F05A68 /* paso2_rev_v4_1.jpg in Resources */,
 				8E2E8A801BF243240019B4B5 /* testimonios1b_rev.jpg in Resources */,
@@ -1492,6 +1595,7 @@
 				8ED9F4171BFE4A2F0076FA3F /* PNK-3aa_rev_v4.jpg in Resources */,
 				048206AC1C7C7B98000E6BAA /* fondoGrafica2_v4_1_r.jpg in Resources */,
 				8E85DB8D1BDE873A003DB5B7 /* resultado_test.jpg in Resources */,
+				04013C651D36A25700344073 /* coaching-a2_v4_r_br.jpg in Resources */,
 				8ED9F40E1BFE4A2F0076FA3F /* fondoGrafica2_v4.jpg in Resources */,
 				8EE1F2491BCEA0DE007A3D73 /* nutricion-2.jpg in Resources */,
 				8E672ADF1BD644AA00B8D12F /* resultadoimc.jpg in Resources */,
@@ -1512,11 +1616,13 @@
 				04013C3E1D36819B00344073 /* resultado_test_v4_r2_pt.jpg in Resources */,
 				04D50DDC1D3396EB0018A5BA /* coaching1_v4_1.jpg in Resources */,
 				8EE1F2441BCE990F007A3D73 /* nutricion-1.jpg in Resources */,
+				04013C671D36A25700344073 /* control1a_rev_v4_br.jpg in Resources */,
 				8EC69C1C1BC6BD3B00B7149E /* posicion.png in Resources */,
 				04D50DA21D2FBF1B0018A5BA /* nutricion-2a_rev_v4_1_r.jpg in Resources */,
 				8ED9F4211BFE501D0076FA3F /* PNK-2a_rev2_v4.jpg in Resources */,
 				04013C0E1D36579600344073 /* paso3_rev_v4_1_en.jpg in Resources */,
 				04D50DDF1D3397DF0018A5BA /* paso1_rev_v4_1_r.jpg in Resources */,
+				04013C691D36A25700344073 /* home-pre_rev_v4_br.jpg in Resources */,
 				04D50D721D2FA73E0018A5BA /* resultadoimc_r.jpg in Resources */,
 				8E90C2DD1BE7C07300C354F5 /* paso1.jpg in Resources */,
 				0473AFBB1D33F4D600F700D6 /* PNK-2a_rev2_v4_1_1_en.jpg in Resources */,
@@ -1525,9 +1631,13 @@
 				8E90C2E01BE7C07300C354F5 /* paso4.jpg in Resources */,
 				8EC69BFC1BC5813E00B7149E /* config.png in Resources */,
 				04D50DAC1D338F4D0018A5BA /* nutricion-2a_rev_v4_1_r.jpg in Resources */,
+				04013C781D36A25700344073 /* testimonios1b_rev2_v4_br.jpg in Resources */,
+				04013C771D36A25700344073 /* resultadoimc_br.jpg in Resources */,
 				04D50DFF1D33999E0018A5BA /* paso4_rev_v4_1.jpg in Resources */,
 				8E50DCF31C046CEA00F05A68 /* paso2_rev_v4_1_1.jpg in Resources */,
 				8EC69C291BCD101D00B7149E /* boton_actividad.jpg in Resources */,
+				04013C6B1D36A25700344073 /* iconos_zoom_br.jpg in Resources */,
+				04013C6D1D36A25700344073 /* nutricion-2a_rev_v4_1_r_br.jpg in Resources */,
 				8EC69C001BC5813E00B7149E /* contacto@2x.png in Resources */,
 				04013C401D36819B00344073 /* testimonios1b_rev2_v4_pt.jpg in Resources */,
 				0473AFC01D33F4D600F700D6 /* testimonios1b_rev2_v4_en.jpg in Resources */,
@@ -2046,6 +2156,7 @@
 				0473AF971D33F32B00F700D6 /* pt-PT */,
 				0473AFC41D33F5A900F700D6 /* es */,
 				0473AFC71D33F5ED00F700D6 /* en */,
+				04013C461D36981000344073 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -2057,6 +2168,7 @@
 				042F68FD1D2E6974004980E7 /* es */,
 				042F69051D2E6A74004980E7 /* fr */,
 				0473AF961D33F26B00F700D6 /* pt-PT */,
+				04013C451D3697F300344073 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

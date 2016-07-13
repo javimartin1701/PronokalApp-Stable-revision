@@ -7,7 +7,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Contact-->
+        <!--Contacto-->
         <scene sceneID="sVB-0F-1BL">
             <objects>
                 <viewController id="1oK-Nv-yd0" customClass="ContactoViewController" sceneMemberID="viewController">
@@ -50,7 +50,7 @@
                                                 <rect key="frame" x="0.0" y="66" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392156862742" green="0.47058823529411764" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="LLAMAR AHORA"/>
+                                                <state key="normal" title="TELEFONAR AGORA"/>
                                                 <connections>
                                                     <action selector="llamar:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="YoI-Ty-4os"/>
                                                 </connections>
@@ -71,7 +71,7 @@
                                                 <rect key="frame" x="0.0" y="68" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="ENVIAR UN MAIL"/>
+                                                <state key="normal" title="ENVIAR UM E-MAIL"/>
                                                 <connections>
                                                     <action selector="mail:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="eKr-Wx-50j"/>
                                                 </connections>
@@ -86,7 +86,7 @@
                                                 <rect key="frame" x="0.0" y="63" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="CÓMO LLEGAR"/>
+                                                <state key="normal" title="COMO CHEGAR"/>
                                                 <connections>
                                                     <action selector="llegar:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="441-9y-zQI"/>
                                                 </connections>
@@ -136,7 +136,7 @@
                             <constraint firstItem="m0d-kX-oBc" firstAttribute="top" secondItem="HDn-QW-t6f" secondAttribute="bottom" constant="20" id="ppe-f8-wZC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" image="contacto.png" id="up9-jM-eWQ"/>
+                    <tabBarItem key="tabBarItem" title="Contacto" image="contacto.png" id="up9-jM-eWQ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="llamarGroup" destination="MV3-wc-SdM" id="6hZ-rI-vci"/>
@@ -154,7 +154,7 @@
             </objects>
             <point key="canvasLocation" x="164" y="1006"/>
         </scene>
-        <!--Accès au club-->
+        <!--Acesso au clube-->
         <scene sceneID="L9z-4j-t7f">
             <objects>
                 <viewController id="Cy8-pz-gFb" customClass="ClubViewController" sceneMemberID="viewController">
@@ -179,7 +179,7 @@
                             <constraint firstItem="mkP-B3-a5N" firstAttribute="top" secondItem="pEN-C6-mJX" secondAttribute="topMargin" id="m0G-uC-ruO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Accès au club" image="club.png" id="rYY-Pz-n4n"/>
+                    <tabBarItem key="tabBarItem" title="Acesso au clube" image="club.png" id="rYY-Pz-n4n"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="clubpage" destination="mkP-B3-a5N" id="qf5-sy-y8a"/>
@@ -205,7 +205,7 @@
                                 <rect key="frame" x="-4" y="489" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="SOUTIEN PSYCHO-ÉMOTIONNEL">
+                                <state key="normal" title="APOIO PSICOEMOCIONAL">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -216,7 +216,7 @@
                                 <rect key="frame" x="-4" y="460" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="ACTIVITÉ PHYSIQUE">
+                                <state key="normal" title="ACTIVIDADE FÍSICA">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -227,7 +227,7 @@
                                 <rect key="frame" x="-4" y="431" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="NUTRITION">
+                                <state key="normal" title="NUTRIÇÃO">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -249,7 +249,7 @@
                                 <rect key="frame" x="-4" y="343" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="TÉMOIGNAGES">
+                                <state key="normal" title="DEPOIMENTOS">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -278,7 +278,7 @@
                                 <rect key="frame" x="-4" y="314" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="CALCULEZ VOTRE POIDS IDÉAL">
+                                <state key="normal" title="CALCULE SEU PESO IDEAL">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -289,7 +289,7 @@
                                 <rect key="frame" x="-4" y="256" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="DIDACTICIEL">
+                                <state key="normal" title="TUTORIAL">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -300,7 +300,7 @@
                                 <rect key="frame" x="-4" y="401" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="CONTRÔLE MÉDICAL">
+                                <state key="normal" title="CONTROLE MEDICO">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -405,7 +405,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSG-zM-xkL">
                                                 <rect key="frame" x="85" y="525" width="150" height="30"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="SUIVANT">
+                                                <state key="normal" title="SIGUIENTE">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -461,7 +461,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRJ-yD-xyo">
                                                 <rect key="frame" x="85" y="525" width="150" height="30"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="SUIVANT">
+                                                <state key="normal" title="SIGUIENTE">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -517,7 +517,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2w-oG-srs">
                                                 <rect key="frame" x="85" y="525" width="150" height="30"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="SUIVANT">
+                                                <state key="normal" title="SIGUIENTE">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -573,7 +573,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srE-W9-iZi">
                                                 <rect key="frame" x="85" y="525" width="150" height="30"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="TERMINER">
+                                                <state key="normal" title="FINALIZAR">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -643,7 +643,7 @@
                                                     <constraint firstAttribute="width" secondItem="rz0-v3-c0W" secondAttribute="height" multiplier="15:8" id="AtY-ly-Fo7"/>
                                                     <constraint firstAttribute="width" constant="240" id="nD6-ba-GMn"/>
                                                 </constraints>
-                                                <string key="text">Félicitations! Le poids de vos bouts de motivation de l'équilibre vers le changement pour la perte de poids. Que vous positionne un excellent point de départ. Coaching Département Groupe PronoKal aidera à garder votre motivation.</string>
+                                                <string key="text">¡Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -655,7 +655,7 @@
                                                     <constraint firstAttribute="width" secondItem="9gK-hL-dDj" secondAttribute="height" multiplier="15:8" id="cR3-54-7rB"/>
                                                     <constraint firstAttribute="width" constant="240" id="ihh-vJ-iNH"/>
                                                 </constraints>
-                                                <string key="text">Votre motivation pour le changement n'a pas encore besoin de vous encourager à commencer le chemin d'une vie et le poids du poids sain. Le Coaching Département Groupe PronoKal vous aidera à augmenter votre motivation.</string>
+                                                <string key="text">Tu motivación para el cambio no tiene todavía el peso necesario para animarte a iniciar el camino hacia una vida y un peso más saludable. El Departamento de Coaching de PronoKal Group te ayudará a aumentar tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -667,7 +667,7 @@
                                                     <constraint firstAttribute="width" secondItem="CsF-hu-usg" secondAttribute="height" multiplier="15:8" id="4lP-Yq-T40"/>
                                                     <constraint firstAttribute="width" constant="240" id="M1Y-dc-dbF"/>
                                                 </constraints>
-                                                <string key="text">Il semble que vous vous sentez ambivalents au sujet de la décision d'ouvrir la voie pour atteindre votre objectif. Vous voulez changer et rester le même en même temps? Le Département PronoKal Coaching Group contribuera à renforcer votre motivation.</string>
+                                                <string key="text">Parece que te sientes ambivalente ante la decisión de iniciar el camino para alcanzar tu objetivo. ¿Quieres cambiar y seguir igual al mismo tiempo? El Departamento de Coaching de PronoKal Group te ayudará a reforzar tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1717,7 +1717,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hH5-uJ-Oii">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Faible Poids" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-3n-NjG">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bajo peso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-3n-NjG">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1726,7 +1726,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-2R-X2g">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique que vous avez un poids inférieur à un poids santé, ce qui augmente votre risque de développer des problèmes de santé. La consultation d'un médecin spécialiste.</string>
+                                                        <string key="text">Tu IMC indica que tienes un peso por debajo de un peso saludable, lo que eleva tu riesgo de desarrollar problemas de salud. Consulta con un especialista médico. </string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1746,7 +1746,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique que vous avez un poids correct pour votre taille. Pourtant, vous pourriez avoir trop de graisse, donc il serait préférable de vous de réaliser une étude indice de masse de graisse pour le jeter. Si vous voulez vérifier votre indice de graisse, contactez PronoKal Group.</string>
+                                                        <string key="text">Tu IMC indica que tienes un peso correcto para tu altura. Aun así, podrías tener un exceso de grasa, por lo que sería aconsejable que realizaras un estudio del índice de masa grasa para descartarlo. Si quieres comprobar tu índice de grasa, ponte en contacto con PronoKal Group.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1757,7 +1757,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n10-Qp-oS5">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Surpoids" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-8z-KgZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobrepeso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-8z-KgZ">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1766,7 +1766,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKx-mb-tfK">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique que vous avez un excès de poids, ce qui augmente le risque de diverses maladies galères. Vous devriez commencer à prendre des mesures pour perdre du poids et d'atteindre un poids santé. Contactez-nous pour obtenir votre poids idéal.</string>
+                                                        <string key="text">Tu IMC indica que tienes un exceso de peso, lo que aumenta el riesgo de que padezcas diferentes enfermedades. Deberías empezar a tomar medidas para perder peso y conseguir un peso saludable. Contacta con nosotros para conseguir tu peso ideal. </string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1777,7 +1777,7 @@
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i7j-uK-zjg">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Pré-obésité" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSE-0i-ivx">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Preobesidad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSE-0i-ivx">
                                                         <rect key="frame" x="78" y="8" width="150" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1786,7 +1786,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFq-OC-gvH">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique que vous êtes dans un état de pré-obésité, qui accroissent le risque de maladies différentes avec votre poids actuel. Vous devez prendre des mesures dès maintenant et obtenir un poids santé. Nous pouvons vous aider.</string>
+                                                        <string key="text">Tu IMC indica que estás en un estado de preobesidad, por lo que estás aumentado el riesgo de padecer diferentes enfermedades con tu peso actual. Deberías tomar medidas ya y adquirir un peso saludable. Nosotros te podemos ayudar.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1800,7 +1800,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPv-5d-H3n">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Obésité" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-5k-GTZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Obesidad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-5k-GTZ">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1809,7 +1809,8 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique l'obésité spectacle, alors vous avez un risque élevé de maladies différentes, y compris le diabète de type 2, les maladies cardiovasculaires et les troubles musculo-squelettiques, entre autres. Vous devriez commencer comme nécessaire pour réduire le poids et réduire votre risque de mesures de comorbidité. Contactez-nous afin que nous puissions vous aider.</string>
+                                                        <string key="text">Tu IMC indica que presentas obesidad, por lo que tienes un elevado riesgo de padecer diferentes enfermedades, como diabetes tipo 2, enfermedades cardiovasculares o alteraciones osteoarticulares, entre otras. Deberías iniciar ya las medidas necesarias para disminuir de peso y reducir tu riesgo de comorbilidades. Contacta con nosotros para que te podamos ayudar.
+</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1880,8 +1881,8 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whM-1J-Eu2">
                                                 <rect key="frame" x="0.0" y="223" width="320" height="260"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Le résultat du calcul de la perte de poids semble indiquer que vous n'avez pas besoin de perdre du poids" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-Li-BN8">
-                                                        <rect key="frame" x="8" y="41" width="301" height="100"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="El resultado del cálculo de perder peso parece indicar que no necesitas perder peso" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-Li-BN8">
+                                                        <rect key="frame" x="8" y="41" width="301" height="54"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -2420,7 +2421,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLb-zR-zit">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto2_v4_r.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C3z-h1-9BB">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto2_v4_r_br.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C3z-h1-9BB">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="521"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAl-WA-pWH">
@@ -2472,7 +2473,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fsu-m9-P6y">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto3_v4_r2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L4z-q8-jpN">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto3_v4_r2_br.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L4z-q8-jpN">
                                         <rect key="frame" x="0.0" y="-1" width="320" height="521"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQj-iL-TCt">
@@ -2869,7 +2870,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="iconos_zoom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3vA-Ed-gBf">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="iconos_zoom_br.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3vA-Ed-gBf">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3vA-Ed-gBf" secondAttribute="height" multiplier="32:37" id="dnD-Rm-2Wb"/>
@@ -3082,7 +3083,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3L-jV-SsK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto1_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xIw-Hj-cVg">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto1_v4_1_br.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xIw-Hj-cVg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="521"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUE-wh-339">
@@ -3403,7 +3404,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ap9-H9-a8o">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="home-pre_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="W8l-pS-sYV">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="home-pre_rev_v4_br.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="W8l-pS-sYV">
                                         <rect key="frame" x="0.0" y="2" width="320" height="565"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="6nu-SS-bmZ"/>
@@ -3471,11 +3472,11 @@ CQ
             </objects>
             <point key="canvasLocation" x="-915" y="109"/>
         </scene>
-        <!--Retour-->
+        <!--Voltar-->
         <scene sceneID="Ycm-m6-bFd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="gsg-jo-VVR" customClass="UIDemoNavController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Retour" image="atras.png" id="Y2E-tL-BFU"/>
+                    <tabBarItem key="tabBarItem" title="Voltar" image="atras.png" id="Y2E-tL-BFU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pD4-FG-9Js">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -3697,8 +3698,8 @@ CQ
         <image name="flecha.png" width="41" height="37"/>
         <image name="fondoGrafica2.jpg" width="751" height="3000"/>
         <image name="fondoGrafica2_v4_1_r.jpg" width="751" height="3000"/>
-        <image name="home-pre_rev_v4.jpg" width="751" height="1334"/>
-        <image name="iconos_zoom.jpg" width="749" height="880"/>
+        <image name="home-pre_rev_v4_br.jpg" width="751" height="1334"/>
+        <image name="iconos_zoom_br.jpg" width="749" height="880"/>
         <image name="llamadas.png" width="123" height="123"/>
         <image name="logo_texto.jpg" width="373" height="94"/>
         <image name="logo_texto2.png" width="373" height="94"/>
@@ -3722,26 +3723,26 @@ CQ
         <image name="texto-contacto-mx.png" width="426" height="180"/>
         <image name="texto-contacto-rd.png" width="426" height="162"/>
         <image name="texto_contacto3.png" width="426" height="450"/>
-        <image name="tuto1_v4_1.jpg" width="751" height="1224"/>
-        <image name="tuto2_v4_r.jpg" width="751" height="1224"/>
-        <image name="tuto3_v4_r2.jpg" width="751" height="1224"/>
+        <image name="tuto1_v4_1_br.jpg" width="751" height="1224"/>
+        <image name="tuto2_v4_r_br.jpg" width="751" height="1224"/>
+        <image name="tuto3_v4_r2_br.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="had-le-EPl"/>
-        <segue reference="X96-Pp-Dok"/>
-        <segue reference="B5n-R8-b3N"/>
+        <segue reference="uyO-0I-gPX"/>
+        <segue reference="5cy-8V-7W7"/>
         <segue reference="F62-eN-4x7"/>
-        <segue reference="oHC-TG-CEi"/>
-        <segue reference="LhT-Yc-oIj"/>
-        <segue reference="O6n-gb-jcv"/>
-        <segue reference="fvq-jr-0D1"/>
-        <segue reference="7lL-BT-yup"/>
-        <segue reference="wJS-rf-Zqo"/>
         <segue reference="WLM-zQ-shq"/>
+        <segue reference="G2V-es-xvu"/>
+        <segue reference="xLk-7n-WHd"/>
+        <segue reference="fvA-qt-0EE"/>
+        <segue reference="WCL-6a-cs6"/>
+        <segue reference="aw2-Fr-I3T"/>
         <segue reference="I9p-9N-ZWK"/>
-        <segue reference="SRY-IF-6Bj"/>
         <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="djE-OB-S6i"/>
         <segue reference="HvQ-gg-HKO"/>
-        <segue reference="S3p-zB-FPh"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="TZs-ad-IQf"/>
+        <segue reference="s2Y-HI-cLn"/>
     </inferredMetricsTieBreakers>
 </document>
