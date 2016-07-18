@@ -55,7 +55,7 @@
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
     NSLog(@"%@",countryCode);
     
-    if ([countryCode isEqualToString:@"ES"]) {
+    if ([countryCode isEqualToString:@"ES"]||[countryCode isEqualToString:@"BR"]) {
         [self openMapToLatitude:41.3931404	 longitude:2.1690308];
         NSLog(@"ESPAÑA");
     }
@@ -174,7 +174,7 @@
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
     NSLog(@"%@",countryCode);
-    if ([countryCode isEqualToString:@"ES"]) {
+    if ([countryCode isEqualToString:@"ES"]||[countryCode isEqualToString:@"BR"]) {
         textoEspana.hidden=NO;
         llegarGroup.hidden=YES;
      

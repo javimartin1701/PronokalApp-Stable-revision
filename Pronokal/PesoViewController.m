@@ -163,9 +163,9 @@
     NSLog(@"%@",countryCode);
     
     NSString *spais=countryCode;
+    NSString *lang=[spais lowercaseString];
     
-    
-    NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f&pais=%@", saltura, speso, sedad, spais];
+    NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f&lang=%@", saltura, speso, sedad, lang];
     //urlGrafica.text=website;
     
     //NSString *website = @"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33&&pais=countryCode";
@@ -345,12 +345,12 @@
     NSLog(@"%@",countryCode);
     
     NSString *spais=countryCode;
-
+    NSString *lang=[spais lowercaseString];
     
     
     
     
-    NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=h&altura=%.1f&peso=%.1f&edad=%.f&pais=%@", saltura, speso, sedad, spais];
+    NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=h&altura=%.1f&peso=%.1f&edad=%.f&lang=%@", saltura, speso, sedad, lang];
     //urlGrafica.text=website;
     
     //NSString *website = @"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33";

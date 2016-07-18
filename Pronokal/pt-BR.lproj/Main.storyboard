@@ -643,7 +643,7 @@
                                                     <constraint firstAttribute="width" secondItem="rz0-v3-c0W" secondAttribute="height" multiplier="15:8" id="AtY-ly-Fo7"/>
                                                     <constraint firstAttribute="width" constant="240" id="nD6-ba-GMn"/>
                                                 </constraints>
-                                                <string key="text">Parabéns! O peso de sua motivação inclina a balança para a mudança para perder peso. Isso posiciona você em um excelente ponto de partida. O Departamento de Coaching do PronoKal Group ajuda a manter sua motivação.</string>
+                                                <string key="text">Parabéns! O peso de sua motivação inclina a balança para a mudança para perder peso. Isso posiciona você em um excelente ponto de partida. O Departamento de Coaching do Grupo PronoKal ajuda a manter sua motivação.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -940,7 +940,7 @@
                                             <constraint firstAttribute="width" secondItem="d0o-Ey-Pdz" secondAttribute="height" multiplier="25:3" id="zgd-2K-sWY"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                        <state key="normal" title="DESCUBRE TODAS LAS HISTORIAS DE VIDA">
+                                        <state key="normal" title="DESCUBRE TODAS AS HISTÓRIAS DE VIDA">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -1746,7 +1746,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Seu IMC indica que você tem um peso correto para sua altura. Ainda assim, você poderia ter excesso de gordura; seria aconselhável realizar um estudo do índice de massa gorda para descartá-lo. Se quiser verificar seu índice de gordura, entre em contato com o PronoKal Group.</string>
+                                                        <string key="text">Seu IMC indica que você tem um peso correto para sua altura. Ainda assim, você poderia ter excesso de gordura; seria aconselhável realizar um estudo do índice de massa gorda para descartá-lo. Se quiser verificá-lo, entre em contato com o Grupo PronoKal.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1757,7 +1757,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n10-Qp-oS5">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exceso de peso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-8z-KgZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobrepeso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-8z-KgZ">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1766,7 +1766,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKx-mb-tfK">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Seu IMC indica que você tem excesso de peso, o que aumenta o risco de sofrer diferentes doenças. Você deveria começar a tomar medidas para perder peso e conseguir um peso saudável. Entre em contato conosco para conseguir seu peso ideal.</string>
+                                                        <string key="text">Seu IMC indica que você tem excesso de peso, o que aumenta o risco de sofrer diferentes doenças. Você deveria começar a tomar medidas para emagrecer e conseguir um peso saudável. Entre em contato conosco para consegui-lo!</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1809,7 +1809,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Seu IMC indica você que apresenta obesidade; portanto, tem um alto risco de sofrer diferentes doenças, como diabetes tipo 2, doenças cardiovasculares e alterações osteoarticulares, entre outras. Você deveria tomar já as medidas necessárias para diminuir seu peso e reduzir o risco de comorbidades. Entre em contato conosco para poder receber nossa ajuda.
+                                                        <string key="text">Seu IMC indica você que apresenta obesidade; portanto, tem um alto risco de sofrer diferentes doenças, como diabetes tipo 2, doenças cardiovasculares e alterações osteoarticulares, entre outras. Você deveria tomar já as medidas necessárias para diminuir seu peso e reduzir o risco de comorbidades. Entre em contato conosco para que possamos lhe ajudar.
 </string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -2537,7 +2537,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXp-xS-JJZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control1a_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-7G-Lj8">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control1a_rev_v4_br.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-7G-Lj8">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -2616,7 +2616,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MY1-48-HL3">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control2a_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Imw-i7-kWc">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control2a_rev_v4_br.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Imw-i7-kWc">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="735"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -3693,8 +3693,8 @@ CQ
         <image name="coaching-a2_v4_r_br.jpg" width="746" height="1805"/>
         <image name="coaching1_v4_1_br.jpg" width="754" height="1221"/>
         <image name="contacto.png" width="25" height="25"/>
-        <image name="control1a_rev_v4.jpg" width="745" height="1400"/>
-        <image name="control2a_rev_v4.jpg" width="741" height="1700"/>
+        <image name="control1a_rev_v4_br.jpg" width="745" height="1400"/>
+        <image name="control2a_rev_v4_br.jpg" width="741" height="1700"/>
         <image name="flecha.png" width="41" height="37"/>
         <image name="fondoGrafica2.jpg" width="751" height="3000"/>
         <image name="fondoGrafica2_v4_1_r_br.jpg" width="751" height="3000"/>
@@ -3733,16 +3733,16 @@ CQ
         <segue reference="WCL-6a-cs6"/>
         <segue reference="TZs-ad-IQf"/>
         <segue reference="s2Y-HI-cLn"/>
+        <segue reference="rac-cS-TaQ"/>
         <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="w2u-1g-DF4"/>
-        <segue reference="S3p-zB-FPh"/>
-        <segue reference="HvQ-gg-HKO"/>
-        <segue reference="CfJ-tn-f0G"/>
-        <segue reference="xhY-sy-Kil"/>
+        <segue reference="rlm-MO-jpp"/>
         <segue reference="WLM-zQ-shq"/>
-        <segue reference="had-le-EPl"/>
-        <segue reference="N6i-Yv-VVr"/>
-        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="S3p-zB-FPh"/>
+        <segue reference="CfJ-tn-f0G"/>
         <segue reference="f7U-6P-83y"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="N6i-Yv-VVr"/>
+        <segue reference="had-le-EPl"/>
     </inferredMetricsTieBreakers>
 </document>
