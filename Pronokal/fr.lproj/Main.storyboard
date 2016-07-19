@@ -667,7 +667,7 @@
                                                     <constraint firstAttribute="width" secondItem="CsF-hu-usg" secondAttribute="height" multiplier="15:8" id="4lP-Yq-T40"/>
                                                     <constraint firstAttribute="width" constant="240" id="M1Y-dc-dbF"/>
                                                 </constraints>
-                                                <string key="text">Il semble que vous vous sentez ambivalents au sujet de la décision d'ouvrir la voie pour atteindre votre objectif. Vous voulez changer et rester le même en même temps? Le Département PronoKal Coaching Group contribuera à renforcer votre motivation.</string>
+                                                <string key="text">Il semble que vous vous sentez ambivalents au sujet de la décision d'ouvrir la voie pour atteindre votre objectif. Ressentez-vous à la fois l'envie de changer et de rester la même personne ? Le Département PronoKal Coaching Group contribuera à renforcer votre motivation.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1717,7 +1717,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hH5-uJ-Oii">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Faible Poids" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-3n-NjG">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="POlOS FAIBLE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-3n-NjG">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1726,7 +1726,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-2R-X2g">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique que vous avez un poids inférieur à un poids santé, ce qui augmente votre risque de développer des problèmes de santé. La consultation d'un médecin spécialiste.</string>
+                                                        <string key="text">Votre IMC indique que votre poids est inférieur à un poids correspondant à un bon état de santé, ce qui signifie que vous pourriez présenter certains problèmes de santé. Nous vous recommandons de consulter un médecin spécialiste.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1737,7 +1737,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CjL-Un-Fwg">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Normal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xx3-Ky-eZk">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NORMAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xx3-Ky-eZk">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1746,7 +1746,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique que vous avez un poids correct pour votre taille. Pourtant, vous pourriez avoir trop de graisse, donc il serait préférable de vous de réaliser une étude indice de masse de graisse pour le jeter. Si vous voulez vérifier votre indice de graisse, contactez PronoKal Group.</string>
+                                                        <string key="text">Votre IMC indique que votre poids est pour votre taille. Même dans ce cas, vous pourriez présenter un excès de graisse et nous vous conseillons donc d'effectuer une analyse de la masse graisseuse pour écarter cette éventualité. Si vous souhaitez vérifier votre indice de masse graisseuse, n'hésitez pas à contacter Pronokal Group.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1757,7 +1757,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n10-Qp-oS5">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Surpoids" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-8z-KgZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SURPOIDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-8z-KgZ">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1766,7 +1766,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKx-mb-tfK">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique que vous avez un excès de poids, ce qui augmente le risque de diverses maladies galères. Vous devriez commencer à prendre des mesures pour perdre du poids et d'atteindre un poids santé. Contactez-nous pour obtenir votre poids idéal.</string>
+                                                        <string key="text">Votre IMC indique que vous avez du surpoids, ce qui accroît vos risques de présenter certaines maladies. Vous devriez commencer à prendre des mesures pour perdre du poids et améliorer votre santé. Contactez-nous pour atteindre votre poids idéal.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1800,7 +1800,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPv-5d-H3n">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Obésité" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-5k-GTZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OBÉSITÉ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-5k-GTZ">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1809,7 +1809,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Votre IMC indique l'obésité spectacle, alors vous avez un risque élevé de maladies différentes, y compris le diabète de type 2, les maladies cardiovasculaires et les troubles musculo-squelettiques, entre autres. Vous devriez commencer comme nécessaire pour réduire le poids et réduire votre risque de mesures de comorbidité. Contactez-nous afin que nous puissions vous aider.</string>
+                                                        <string key="text">Votre IMC indique l'obésité spectacle, alors vous avez un risque élevé de développer certaines maladies différentes, y compris le diabète de type 2, les maladies cardiovasculaires et les troubles musculo-squelettiques, entre autres. Vous devriez commencer comme nécessaire pour réduire le poids et réduire votre risque de mesures de comorbidité. Contactez-nous afin que nous puissions vous aider.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3727,20 +3727,20 @@ CQ
         <image name="tuto3_v4_r2.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="had-le-EPl"/>
+        <segue reference="wJS-rf-Zqo"/>
+        <segue reference="O6n-gb-jcv"/>
+        <segue reference="F62-eN-4x7"/>
         <segue reference="X96-Pp-Dok"/>
         <segue reference="B5n-R8-b3N"/>
-        <segue reference="F62-eN-4x7"/>
-        <segue reference="oHC-TG-CEi"/>
-        <segue reference="LhT-Yc-oIj"/>
-        <segue reference="O6n-gb-jcv"/>
-        <segue reference="fvq-jr-0D1"/>
         <segue reference="7lL-BT-yup"/>
-        <segue reference="wJS-rf-Zqo"/>
+        <segue reference="fvq-jr-0D1"/>
+        <segue reference="LhT-Yc-oIj"/>
         <segue reference="WLM-zQ-shq"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="f7U-6P-83y"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="SRY-IF-6Bj"/>
-        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="HvQ-gg-HKO"/>
         <segue reference="S3p-zB-FPh"/>
     </inferredMetricsTieBreakers>
