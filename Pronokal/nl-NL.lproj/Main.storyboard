@@ -667,7 +667,7 @@
                                                     <constraint firstAttribute="width" secondItem="CsF-hu-usg" secondAttribute="height" multiplier="15:8" id="4lP-Yq-T40"/>
                                                     <constraint firstAttribute="width" constant="240" id="M1Y-dc-dbF"/>
                                                 </constraints>
-                                                <string key="text">Het lijkt alsof je twijfelt en niet goed weet of je de weg naar je streefgewicht wilt inslaan. Wil je veranderen maar tegelijkertijd ook niet? Het Departement Coaching van PronoKal Group zal je helpen om je motivatie te versterken.</string>
+                                                <string key="text">Het lijkt wel dat je besluiteloos bent over de methode. Heb je het gevoel dat je zowel wilt veranderen als hetzelfde wilt blijven? De PronoKalGroup Coaching Afdeling zal u helpen uw motivatieversterken.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1800,7 +1800,7 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPv-5d-H3n">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ZWAARLIJVIGHEID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-5k-GTZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OBESITAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-5k-GTZ">
                                                         <rect key="frame" x="78" y="8" width="104" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1809,7 +1809,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Je BMI geeft aan dat je aan zwaarlijvigheid lijdt, waardoor je meer kans loopt op ziektes zoals diabetes van het type 2, hart- en vaatziekten, osteoarticulaire aandoeningen... Je zou de nodige stappen moeten ondernemen om af te vallen en het risico op comorbiditeit te verlagen. Neem contact met ons op en laat je helpen.</string>
+                                                        <string key="text">Je BMI geeft aan dat je aan obesitas lijdt, waardoor je meer kans loopt op ziektes zoals diabetes type 2, hart- en vaatziekten, Gewrichtsklachten... Je zou de nodige stappen moeten ondernemen om af te vallen en het risico op comorbiditeit te verlagen. Neem contact met ons op en laat je helpen.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3727,17 +3727,17 @@ CQ
         <image name="tuto3_v4_r2_nl.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uyO-0I-gPX"/>
         <segue reference="5cy-8V-7W7"/>
         <segue reference="WCL-6a-cs6"/>
+        <segue reference="uyO-0I-gPX"/>
         <segue reference="TZs-ad-IQf"/>
-        <segue reference="S3p-zB-FPh"/>
-        <segue reference="HvQ-gg-HKO"/>
-        <segue reference="CfJ-tn-f0G"/>
+        <segue reference="N6i-Yv-VVr"/>
+        <segue reference="had-le-EPl"/>
         <segue reference="WLM-zQ-shq"/>
         <segue reference="xhY-sy-Kil"/>
-        <segue reference="had-le-EPl"/>
-        <segue reference="N6i-Yv-VVr"/>
+        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="S3p-zB-FPh"/>
+        <segue reference="CfJ-tn-f0G"/>
         <segue reference="Z1s-8x-Pdf"/>
         <segue reference="rlm-MO-jpp"/>
         <segue reference="I9p-9N-ZWK"/>
