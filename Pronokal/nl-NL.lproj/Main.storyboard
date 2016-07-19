@@ -940,7 +940,7 @@
                                             <constraint firstAttribute="width" secondItem="d0o-Ey-Pdz" secondAttribute="height" multiplier="25:3" id="zgd-2K-sWY"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                        <state key="normal" title="DESCUBRE TODAS LAS HISTORIAS DE VIDA">
+                                        <state key="normal" title="ALLE LEVENSVERHALEN LEZEN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>

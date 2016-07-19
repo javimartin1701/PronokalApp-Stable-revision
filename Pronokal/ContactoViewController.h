@@ -16,6 +16,7 @@
     IBOutlet UIImageView *textoUrugay;
     IBOutlet UIImageView *textoMexico;
     IBOutlet UIImageView *textoRepDom;
+    IBOutlet UIImageView *textoPortugal;
     NSArray *toRecipents2;
     IBOutlet UIView *llegarGroup;
     IBOutlet UIView *llamarGroup;

@@ -170,6 +170,7 @@
     textoUrugay.hidden=YES;
     textoRepDom.hidden=YES;
     textoMexico.hidden=YES;
+    textoPortugal.hidden=YES;
     
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
@@ -202,6 +203,10 @@
     else if ([countryCode isEqualToString:@"AR"]){
         textoArgentina.hidden=NO;
         NSLog(@"ARGENTINA");
+    }
+    else if ([countryCode isEqualToString:@"PT"]){
+        textoPortugal.hidden=NO;
+        NSLog(@"PORTUGAL");
     }
     else if ([countryCode isEqualToString:@"UY"]){
         llegarGroup.hidden=YES;
