@@ -26,7 +26,7 @@
                                     <constraint firstAttribute="width" constant="146" id="d9Y-3k-fgw"/>
                                 </constraints>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="texto-contacto-ar.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Vk-Fj-5nI">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="texto-contacto-uk.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2Vk-Fj-5nI">
                                 <rect key="frame" x="78" y="53" width="164" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2Vk-Fj-5nI" secondAttribute="height" multiplier="164:61" id="8uj-e1-Uha"/>
@@ -50,7 +50,7 @@
                                                 <rect key="frame" x="0.0" y="66" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392156862742" green="0.47058823529411764" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="LLAMAR AHORA"/>
+                                                <state key="normal" title="CALL NOW"/>
                                                 <connections>
                                                     <action selector="llamar:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="YoI-Ty-4os"/>
                                                 </connections>
@@ -71,7 +71,7 @@
                                                 <rect key="frame" x="0.0" y="68" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="ENVIAR UN MAIL"/>
+                                                <state key="normal" title="SEND AN EMAIL"/>
                                                 <connections>
                                                     <action selector="mail:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="eKr-Wx-50j"/>
                                                 </connections>
@@ -86,7 +86,7 @@
                                                 <rect key="frame" x="0.0" y="63" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="CÓMO LLEGAR"/>
+                                                <state key="normal" title="GET DIRECTIONS"/>
                                                 <connections>
                                                     <action selector="llegar:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="441-9y-zQI"/>
                                                 </connections>
@@ -144,10 +144,10 @@
                         <outlet property="mailGroup" destination="aZd-rZ-vWs" id="B9z-Ur-SlK"/>
                         <outlet property="principal" destination="G2b-Yf-1mY" id="qNN-nh-72x"/>
                         <outlet property="scroller" destination="hVv-Dx-lSc" id="066-MM-nfG"/>
-                        <outlet property="textoArgentina" destination="2Vk-Fj-5nI" id="lY8-hg-v9H"/>
                         <outlet property="textoEspana" destination="m0d-kX-oBc" id="8pB-VK-vV5"/>
                         <outlet property="textoMexico" destination="b2U-4p-JXh" id="FgG-3S-oAA"/>
                         <outlet property="textoRepDom" destination="uIz-BS-ea6" id="xYQ-zb-VIC"/>
+                        <outlet property="textoUK" destination="2Vk-Fj-5nI" id="RP4-58-0sZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VwG-VF-y9u" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1746,7 +1746,8 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Your BMI indicates that you are at a healthy weight for your height. Even so, you may have excess fat, so we recommend doing a fat mass index study to rule out this possibility. If you want to determine your fat mass index, contact PronoKal Group.</string>
+                                                        <string key="text">Your BMI indicates that you are at a healthy weight for your height. Even so, you may have excess fat, so we recommend doing a fat mass index study to rule out this possibility. If you want to determine your fat mass index, contact PronoKal Group.
+</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3719,9 +3720,9 @@ CQ
         <image name="resultadoimc_en.jpg" width="744" height="1224"/>
         <image name="sobre.png" width="123" height="123"/>
         <image name="testimonios1b_rev2_v4_en.jpg" width="753" height="1218"/>
-        <image name="texto-contacto-ar.png" width="426" height="162"/>
         <image name="texto-contacto-mx.png" width="426" height="180"/>
         <image name="texto-contacto-rd.png" width="426" height="162"/>
+        <image name="texto-contacto-uk.jpg" width="426" height="162"/>
         <image name="texto_contacto3.png" width="426" height="450"/>
         <image name="tuto1_v4_1_en.jpg" width="751" height="1224"/>
         <image name="tuto2_v4_r_en.jpg" width="751" height="1224"/>

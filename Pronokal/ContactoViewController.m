@@ -28,6 +28,11 @@
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:08008883377"]];
         NSLog(@"ARGENTINA");
     }
+    else if ([countryCode isEqualToString:@"GB"]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:00442071832391"]];
+        NSLog(@"LLAMANDO A UK");
+    }
+
     else if ([countryCode isEqualToString:@"UY"]){
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:26227658"]];
         NSLog(@"URUGAY");
@@ -40,6 +45,27 @@
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:018000878861"]];
         NSLog(@"MEXICO");
     }
+    else if ([countryCode isEqualToString:@"BR"]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:31753000"]];
+        NSLog(@"BR");
+    }
+    else if ([countryCode isEqualToString:@"PT"]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:707782012"]];
+        NSLog(@"PT");
+    }
+    else if ([countryCode isEqualToString:@"BE"]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:070354712"]];
+        NSLog(@"BE");
+    }
+    else if ([countryCode isEqualToString:@"NL"]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0855605103"]];
+        NSLog(@"NL");
+    }
+    else if ([countryCode isEqualToString:@"LU"]){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:080029150"]];
+        NSLog(@"LU");
+    }
+    
     
   
 }
@@ -76,6 +102,42 @@
         NSLog(@"MEXICO");
     }
 
+    else if ([countryCode isEqualToString:@"GB"]){
+        [self openMapToLatitude:51.5173187	 longitude:-0.1484144];
+        NSLog(@"IR A UK");
+    }
+    
+    else if ([countryCode isEqualToString:@"BR"]){
+        
+        [self openMapToLatitude:41.3931404	 longitude:2.1690308];
+        NSLog(@"IR A BR");
+    }
+    else if ([countryCode isEqualToString:@"CH"]){
+        
+        [self openMapToLatitude:41.3931404	 longitude:2.1690308];
+        NSLog(@"IR A CH");
+    }
+    else if ([countryCode isEqualToString:@"BE"]){
+        
+        [self openMapToLatitude:41.3931404	 longitude:2.1690308];
+        NSLog(@"IR A BE");
+    }
+    else if ([countryCode isEqualToString:@"NL"]){
+        
+        [self openMapToLatitude:41.3931404	 longitude:2.1690308];
+        NSLog(@"IR A NL");
+    }
+    else if ([countryCode isEqualToString:@"LU"]){
+        
+        [self openMapToLatitude:41.3931404	 longitude:2.1690308];
+        NSLog(@"IR A LU");
+    }
+    
+    else if ([countryCode isEqualToString:@"PT"]){
+        [self openMapToLatitude:38.7378429	 longitude:-9.1483957];
+        NSLog(@"IR A PT");
+    }
+
     
     
     
@@ -109,6 +171,10 @@
          toRecipents2 = [NSArray arrayWithObject:@"info.argentina@pronokal.com"];
         NSLog(@"ARGENTINA");
     }
+    else if ([countryCode isEqualToString:@"GB"]){
+        toRecipents2 = [NSArray arrayWithObject:@"info.uk@pronokal.com"];
+        NSLog(@"UK");
+    }
     else if ([countryCode isEqualToString:@"UY"]){
          toRecipents2 = [NSArray arrayWithObject:@"info.uruguay@pronokal.com"];
         NSLog(@"URUGAY");
@@ -121,6 +187,35 @@
          toRecipents2 = [NSArray arrayWithObject:@"infomex@pronokal.com"];
         NSLog(@"MEXICO");
     }
+    else if ([countryCode isEqualToString:@"BR"]){
+        toRecipents2 = [NSArray arrayWithObject:@"info.brasil@pronokal.com"];
+        NSLog(@"BRASIL");
+    }
+    else if ([countryCode isEqualToString:@"PT"]){
+        toRecipents2 = [NSArray arrayWithObject:@"info@pronokal.com"];
+        NSLog(@"PORTUGAL");
+    }
+    else if ([countryCode isEqualToString:@"CH"]){
+        toRecipents2 = [NSArray arrayWithObject:@"info.ch@pronokal.com"];
+        NSLog(@"SUIZA");
+    }
+    else if ([countryCode isEqualToString:@"BE"]){
+        toRecipents2 = [NSArray arrayWithObject:@"info.belgie@pronokal.com"];
+        NSLog(@"BELGIUM");
+    }
+    else if ([countryCode isEqualToString:@"NL"]){
+        toRecipents2 = [NSArray arrayWithObject:@"info.nederland@pronokal.com"];
+        NSLog(@"NEDERLAND");
+    }
+    else if ([countryCode isEqualToString:@"LU"]){
+        toRecipents2 = [NSArray arrayWithObject:@"info.luxembourg@pronokal.com"];
+        NSLog(@"LUXEMBURG");
+    }
+
+
+
+
+
 
     
     
@@ -171,6 +266,7 @@
     textoRepDom.hidden=YES;
     textoMexico.hidden=YES;
     textoPortugal.hidden=YES;
+    textoUK.hidden=YES;
     
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
@@ -208,6 +304,10 @@
         textoPortugal.hidden=NO;
         NSLog(@"PORTUGAL");
     }
+    else if ([countryCode isEqualToString:@"GB"]){
+        textoUK.hidden=NO;
+        NSLog(@"UK");
+    }
     else if ([countryCode isEqualToString:@"UY"]){
         llegarGroup.hidden=YES;
         textoUrugay.hidden=NO;
@@ -223,6 +323,26 @@
     }
     else if ([countryCode isEqualToString:@"US"]){
         NSLog(@"USA");
+    }
+    else if ([countryCode isEqualToString:@"BR"]){
+        llegarGroup.hidden=YES;
+        NSLog(@"BR");
+    }
+    else if ([countryCode isEqualToString:@"CH"]){
+        llegarGroup.hidden=YES;
+        NSLog(@"CH");
+    }
+    else if ([countryCode isEqualToString:@"BE"]){
+        llegarGroup.hidden=YES;
+        NSLog(@"BE");
+    }
+    else if ([countryCode isEqualToString:@"NL"]){
+        llegarGroup.hidden=YES;
+        NSLog(@"NL");
+    }
+    else if ([countryCode isEqualToString:@"LU"]){
+        llegarGroup.hidden=YES;
+        NSLog(@"LU");
     }
     // Do any additional setup after loading the view.
 }
