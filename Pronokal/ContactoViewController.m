@@ -271,7 +271,7 @@
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
     NSLog(@"%@",countryCode);
-    if ([countryCode isEqualToString:@"ES"]||[countryCode isEqualToString:@"BR"]) {
+    if ([countryCode isEqualToString:@"ES"]) {
         textoEspana.hidden=NO;
         llegarGroup.hidden=YES;
      
@@ -326,6 +326,7 @@
     }
     else if ([countryCode isEqualToString:@"BR"]){
         llegarGroup.hidden=YES;
+        textoEspana.hidden=YES;
         NSLog(@"BR");
     }
     else if ([countryCode isEqualToString:@"CH"]){

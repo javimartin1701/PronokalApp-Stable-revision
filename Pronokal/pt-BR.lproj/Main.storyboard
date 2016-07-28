@@ -50,7 +50,7 @@
                                                 <rect key="frame" x="0.0" y="66" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392156862742" green="0.47058823529411764" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="TELEFONAR AGORA"/>
+                                                <state key="normal" title="COMPROBAR TELF"/>
                                                 <connections>
                                                     <action selector="llamar:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="YoI-Ty-4os"/>
                                                 </connections>
@@ -71,7 +71,7 @@
                                                 <rect key="frame" x="0.0" y="68" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="ENVIAR UM E-MAIL"/>
+                                                <state key="normal" title="COMPROBAR EMAIL"/>
                                                 <connections>
                                                     <action selector="mail:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="eKr-Wx-50j"/>
                                                 </connections>
@@ -1590,7 +1590,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAJ-PW-kpu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="375" y="-1322"/>
+            <point key="canvasLocation" x="1709" y="-1666"/>
         </scene>
         <!--Peso View Controller-->
         <scene sceneID="lhR-Kv-WXR">
@@ -3728,17 +3728,17 @@ CQ
         <image name="tuto3_v4_r2_br.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uyO-0I-gPX"/>
-        <segue reference="5cy-8V-7W7"/>
-        <segue reference="WCL-6a-cs6"/>
-        <segue reference="TZs-ad-IQf"/>
-        <segue reference="s2Y-HI-cLn"/>
+        <segue reference="WLM-zQ-shq"/>
         <segue reference="rac-cS-TaQ"/>
         <segue reference="Z1s-8x-Pdf"/>
         <segue reference="rlm-MO-jpp"/>
-        <segue reference="WLM-zQ-shq"/>
-        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="gPM-aR-IOE"/>
+        <segue reference="5cy-8V-7W7"/>
+        <segue reference="WCL-6a-cs6"/>
+        <segue reference="TZs-ad-IQf"/>
+        <segue reference="uyO-0I-gPX"/>
         <segue reference="S3p-zB-FPh"/>
+        <segue reference="HvQ-gg-HKO"/>
         <segue reference="CfJ-tn-f0G"/>
         <segue reference="f7U-6P-83y"/>
         <segue reference="I9p-9N-ZWK"/>

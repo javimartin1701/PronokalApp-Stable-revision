@@ -128,23 +128,46 @@
     
     
     int duracionRound = lroundf(duracionTratamiento);
+  NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+  NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+  
     
     resultadot=[NSString stringWithFormat:@"%.1f",total];
     resultadot2=[NSString stringWithFormat:@"%.1f",total2];
     resultadot3=[NSString stringWithFormat:@"%.1f",total3];
     resultadot4=[NSString stringWithFormat:@"%d",duracionRound];
     
-    resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    
+    if ([countryCode isEqualToString:@"NL"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+    }
+    else if ([countryCode isEqualToString:@"ES"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    }
+    else if ([countryCode isEqualToString:@"EN"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weekens"];
+    }
+    else if ([countryCode isEqualToString:@"FR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if ([countryCode isEqualToString:@"PT"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+    }
+    else if ([countryCode isEqualToString:@"BR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+    }
+
     
     resultado.text=resultadot;
     pesoIdeal.text=resultadot2;
     pesoPerder.text=resultadot3;
     duracion.text=resultadot4;
     
+    NSString *spais=countryCode;
+    NSString *lang=[spais lowercaseString];
     
     
-    
-    NSString *website = [NSString stringWithFormat:@"http://webdemo.com.es/pnkv/svg/chart.php?sexo=h&altura=%.1f&peso=%.1f&edad=%.f", saltura, speso, sedad];
+    NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=h&altura=%.1f&peso=%.1f&edad=%.f&lang=%@", saltura, speso, sedad, lang];
     //urlGrafica.text=website;
     
     //NSString *website = @"http://webdemo.com.es/pnkv/svg/chart.php?sexo=h&altura=170&peso=80&edad=33";

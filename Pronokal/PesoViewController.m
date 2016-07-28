@@ -145,22 +145,40 @@
     if (total3<0){
         sinperder.hidden=NO;
     }
-
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
     resultadot=[NSString stringWithFormat:@"%.1f",total];
     resultadot2=[NSString stringWithFormat:@"%.1f",total2];
     resultadot3=[NSString stringWithFormat:@"%.1f",total3];
     resultadot4=[NSString stringWithFormat:@"%d",duracionRound];
     
-    resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    if ([countryCode isEqualToString:@"NL"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+    }
+    else if ([countryCode isEqualToString:@"ES"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    }
+    else if ([countryCode isEqualToString:@"EN"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weekens"];
+    }
+    else if ([countryCode isEqualToString:@"FR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if ([countryCode isEqualToString:@"PT"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+    }
+    else if ([countryCode isEqualToString:@"BR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+    }
+
     
     resultado.text=resultadot;
     pesoIdeal.text=resultadot2;
     pesoPerder.text=resultadot3;
     duracion.text=resultadot4;
     
-    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
-    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
-    NSLog(@"%@",countryCode);
+   
     
     NSString *spais=countryCode;
     NSString *lang=[spais lowercaseString];
@@ -332,17 +350,28 @@
     resultadot3=[NSString stringWithFormat:@"%.1f",total3];
     resultadot4=[NSString stringWithFormat:@"%d",duracionRound];
     
-    resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
+
     
+    if ([countryCode isEqualToString:@"NL"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+    }
+    else if ([countryCode isEqualToString:@"ES"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    }
+    else if ([countryCode isEqualToString:@"EN"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weekens"];
+    }
+    
+
     resultado.text=resultadot;
     pesoIdeal.text=resultadot2;
     pesoPerder.text=resultadot3;
     duracion.text=resultadot4;
     
     
-    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
-    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
-    NSLog(@"%@",countryCode);
     
     NSString *spais=countryCode;
     NSString *lang=[spais lowercaseString];

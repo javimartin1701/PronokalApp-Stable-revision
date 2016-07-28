@@ -17,19 +17,52 @@
 @implementation Coaching1ViewController
 
 -(IBAction)play:(id)sender{
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
+    
+    if ([countryCode isEqualToString:@"NL"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/apoyo_nl.mp4"];
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else if ([countryCode isEqualToString:@"FR"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/apoyo_fr.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else{
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/apoyo.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+
     
     
     // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
     
-    NSURL *url = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/apoyo.mp4"];
-    
-    mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
-    [mpc setMovieSourceType:MPMovieSourceTypeFile];
-    
-    [[self view]addSubview:mpc.view];
-    [mpc setFullscreen:YES];
-    [mpc play];
-}
+   }
 
 
 - (void)viewDidLoad {

@@ -19,18 +19,47 @@
 
 -(IBAction)play:(id)sender{
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutricion.mp4"];  // sample url
-    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
     
-    // Logic for play movie in landscape
-    CGAffineTransform landscapeTransform;
-    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
-    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
-    [movieController.moviePlayer.view setTransform: landscapeTransform];
-    
-    [self presentMoviePlayerViewControllerAnimated:movieController];
-    [movieController.moviePlayer prepareToPlay];
-    [movieController.moviePlayer play];
+    if ([countryCode isEqualToString:@"NL"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutricion_nl.mp4"];
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else if ([countryCode isEqualToString:@"FR"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutricion_fr.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else{
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutricion.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+   
     
     /*
     // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
