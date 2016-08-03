@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="texto_contacto3.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-kX-oBc">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="texto_contacto3.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-kX-oBc">
                                 <rect key="frame" x="87" y="20" width="146" height="223"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="m0d-kX-oBc" secondAttribute="height" multiplier="146:223" id="EoU-hT-c2m"/>
@@ -1835,7 +1835,7 @@ versterken.</string>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whM-1J-Eu2">
                                                 <rect key="frame" x="0.0" y="223" width="320" height="260"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="El resultado del cálculo de perder peso parece indicar que no necesitas perder peso" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-Li-BN8">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-Li-BN8">
                                                         <rect key="frame" x="8" y="41" width="301" height="54"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -3682,21 +3682,21 @@ CQ
         <image name="tuto3_v4_r2_nl.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="had-le-EPl"/>
-        <segue reference="aw2-Fr-I3T"/>
-        <segue reference="fvA-qt-0EE"/>
-        <segue reference="jKD-kl-Vvs"/>
-        <segue reference="5cy-8V-7W7"/>
-        <segue reference="OXP-8a-Gcg"/>
-        <segue reference="WCL-6a-cs6"/>
-        <segue reference="xLk-7n-WHd"/>
-        <segue reference="djE-OB-S6i"/>
-        <segue reference="azG-x2-9hX"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="xhY-sy-Kil"/>
-        <segue reference="WLM-zQ-shq"/>
         <segue reference="SRY-IF-6Bj"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="f7U-6P-83y"/>
+        <segue reference="jKD-kl-Vvs"/>
+        <segue reference="5cy-8V-7W7"/>
+        <segue reference="aw2-Fr-I3T"/>
+        <segue reference="OXP-8a-Gcg"/>
+        <segue reference="WCL-6a-cs6"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="CfJ-tn-f0G"/>
+        <segue reference="djE-OB-S6i"/>
+        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="w2u-1g-DF4"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="WLM-zQ-shq"/>
+        <segue reference="xhY-sy-Kil"/>
     </inferredMetricsTieBreakers>
 </document>

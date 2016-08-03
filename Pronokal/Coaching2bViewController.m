@@ -29,8 +29,14 @@
 -(IBAction)siguiente3:(id)sender{
     paso4.hidden=NO;
 }
+int A=0;
+int B=0;
+
 
 -(IBAction)finalizar:(id)sender{
+    if (A==B){
+        caso3.hidden=NO;
+    }
     informeFinal.hidden=NO;
     
 }
@@ -50,7 +56,7 @@
     int sAmasD=0;
     int sBmasC=0;
     
-    float valor1 = slider1.value;
+    int valor1 = slider1.value;
     int valor2 = slider2.value;
     int valor3 = slider3.value;
     
@@ -89,8 +95,6 @@
     amasd.text = [NSString stringWithFormat:@"%d", sAmasD];
     bmasc.text = [NSString stringWithFormat:@"%d", sBmasC];
     
-    int A=0;
-    int B=0;
     
     
     A=sAmasD;
@@ -102,19 +106,17 @@
         
     }
     
-    if (A<B) {
+    else if (A<B) {
         caso2.hidden=NO;
         
         
     }
     
-    if (A==B) {
+    else{
         caso3.hidden=NO;
         
     }
-    
-    
-    
+   
 }
 
 - (void)viewDidLoad {

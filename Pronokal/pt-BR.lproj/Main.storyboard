@@ -50,7 +50,7 @@
                                                 <rect key="frame" x="0.0" y="66" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392156862742" green="0.47058823529411764" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="COMPROBAR TELF"/>
+                                                <state key="normal" title="TELEFONAR AGORA"/>
                                                 <connections>
                                                     <action selector="llamar:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="YoI-Ty-4os"/>
                                                 </connections>
@@ -71,7 +71,7 @@
                                                 <rect key="frame" x="0.0" y="68" width="188" height="40"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <state key="normal" title="COMPROBAR EMAIL"/>
+                                                <state key="normal" title="ENVIAR UM E-MAIL"/>
                                                 <connections>
                                                     <action selector="mail:" destination="1oK-Nv-yd0" eventType="touchUpInside" id="eKr-Wx-50j"/>
                                                 </connections>
@@ -154,7 +154,7 @@
             </objects>
             <point key="canvasLocation" x="164" y="1006"/>
         </scene>
-        <!--Acesso au clube-->
+        <!--Acesso ao clube-->
         <scene sceneID="L9z-4j-t7f">
             <objects>
                 <viewController id="Cy8-pz-gFb" customClass="ClubViewController" sceneMemberID="viewController">
@@ -179,7 +179,7 @@
                             <constraint firstItem="mkP-B3-a5N" firstAttribute="top" secondItem="pEN-C6-mJX" secondAttribute="topMargin" id="m0G-uC-ruO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Acesso au clube" image="club.png" id="rYY-Pz-n4n"/>
+                    <tabBarItem key="tabBarItem" title="Acesso ao clube" image="club.png" id="rYY-Pz-n4n"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="clubpage" destination="mkP-B3-a5N" id="qf5-sy-y8a"/>
@@ -216,7 +216,7 @@
                                 <rect key="frame" x="-4" y="460" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="ACTIVIDADE FÍSICA">
+                                <state key="normal" title="ATIVIDADE FÍSICA">
                                     <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -643,7 +643,7 @@
                                                     <constraint firstAttribute="width" secondItem="rz0-v3-c0W" secondAttribute="height" multiplier="15:8" id="AtY-ly-Fo7"/>
                                                     <constraint firstAttribute="width" constant="240" id="nD6-ba-GMn"/>
                                                 </constraints>
-                                                <string key="text">Parabéns! O peso de sua motivação inclina a balança para a mudança para perder peso. Isso posiciona você em um excelente ponto de partida. O Departamento de Coaching do Grupo PronoKal ajuda a manter sua motivação.</string>
+                                                <string key="text">Parabéns! O peso de sua motivação inclina a balança para a mudança para perder peso. Isso posiciona você em um excelente ponto de partida. O Departamento de Coaching do PronoKal Group ajuda a manter sua motivação.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -944,7 +944,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="9ZP-fM-2Gu" kind="show" id="KSH-jn-geD"/>
+                                            <action selector="irweb:" destination="3po-R3-VDS" eventType="touchUpInside" id="9kh-hj-D6F"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1746,7 +1746,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Seu IMC indica que você tem um peso correto para sua altura. Ainda assim, você poderia ter excesso de gordura; seria aconselhável realizar um estudo do índice de massa gorda para descartá-lo. Se quiser verificá-lo, entre em contato com o Grupo PronoKal.</string>
+                                                        <string key="text">Seu IMC indica que você tem um peso correto para sua altura. Ainda assim, você poderia ter excesso de gordura; seria aconselhável realizar um estudo do índice de massa gorda para descartá-lo. Se quiser verificá-lo, entre em contato com o PronoKal Group.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3728,21 +3728,21 @@ CQ
         <image name="tuto3_v4_r2_br.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WLM-zQ-shq"/>
-        <segue reference="rac-cS-TaQ"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="rlm-MO-jpp"/>
-        <segue reference="gPM-aR-IOE"/>
-        <segue reference="5cy-8V-7W7"/>
-        <segue reference="WCL-6a-cs6"/>
-        <segue reference="TZs-ad-IQf"/>
-        <segue reference="uyO-0I-gPX"/>
+        <segue reference="SRY-IF-6Bj"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="f7U-6P-83y"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
-        <segue reference="CfJ-tn-f0G"/>
-        <segue reference="f7U-6P-83y"/>
-        <segue reference="I9p-9N-ZWK"/>
-        <segue reference="N6i-Yv-VVr"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="LhT-Yc-oIj"/>
+        <segue reference="F62-eN-4x7"/>
+        <segue reference="O6n-gb-jcv"/>
+        <segue reference="X96-Pp-Dok"/>
+        <segue reference="wJS-rf-Zqo"/>
+        <segue reference="fvq-jr-0D1"/>
+        <segue reference="7lL-BT-yup"/>
+        <segue reference="B5n-R8-b3N"/>
+        <segue reference="WLM-zQ-shq"/>
         <segue reference="had-le-EPl"/>
     </inferredMetricsTieBreakers>
 </document>

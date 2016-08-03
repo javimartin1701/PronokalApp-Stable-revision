@@ -153,6 +153,25 @@
     resultadot3=[NSString stringWithFormat:@"%.1f",total3];
     resultadot4=[NSString stringWithFormat:@"%d",duracionRound];
     
+//    if ([countryCode isEqualToString:@"NL"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+//    }
+//    else if ([countryCode isEqualToString:@"ES"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+//    }
+//    else if ([countryCode isEqualToString:@"EN"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Weekens"];
+//    }
+//    else if ([countryCode isEqualToString:@"FR"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+//    }
+//    else if ([countryCode isEqualToString:@"PT"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+//    }
+//    else if ([countryCode isEqualToString:@"BR"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+//    }
+
     if ([countryCode isEqualToString:@"NL"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
     }
@@ -169,7 +188,13 @@
         resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
     }
     else if ([countryCode isEqualToString:@"BR"]){
-        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    }
+    else if ([countryCode isEqualToString:@"BE"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if ([countryCode isEqualToString:@"CH"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
     }
 
     
@@ -182,6 +207,14 @@
     
     NSString *spais=countryCode;
     NSString *lang=[spais lowercaseString];
+    
+    
+  
+    NSLog(@"%@",lang);
+    if([lang isEqualToString:@"be"]||[lang isEqualToString:@"ch"]){
+        lang=@"fr";
+        NSLog(@"PAIS");
+    }
     
     NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f&lang=%@", saltura, speso, sedad, lang];
     //urlGrafica.text=website;
@@ -355,6 +388,15 @@
     NSLog(@"%@",countryCode);
 
     
+//    if ([countryCode isEqualToString:@"NL"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+//    }
+//    else if ([countryCode isEqualToString:@"ES"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+//    }
+//    else if ([countryCode isEqualToString:@"EN"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Weekens"];
+//    }
     if ([countryCode isEqualToString:@"NL"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
     }
@@ -364,6 +406,22 @@
     else if ([countryCode isEqualToString:@"EN"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Weekens"];
     }
+    else if ([countryCode isEqualToString:@"FR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if ([countryCode isEqualToString:@"PT"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+    }
+    else if ([countryCode isEqualToString:@"BR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    }
+    else if ([countryCode isEqualToString:@"BE"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if ([countryCode isEqualToString:@"CH"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    
     
 
     resultado.text=resultadot;
@@ -375,7 +433,11 @@
     
     NSString *spais=countryCode;
     NSString *lang=[spais lowercaseString];
-    
+    NSLog(@"%@",lang);
+    if([lang isEqualToString:@"be"]||[lang isEqualToString:@"ch"]){
+        lang=@"fr";
+        NSLog(@"PAIS");
+    }
     
     
     

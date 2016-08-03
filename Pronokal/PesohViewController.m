@@ -156,6 +156,12 @@
     else if ([countryCode isEqualToString:@"BR"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
     }
+    else if ([countryCode isEqualToString:@"BE"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if ([countryCode isEqualToString:@"CH"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
 
     
     resultado.text=resultadot;

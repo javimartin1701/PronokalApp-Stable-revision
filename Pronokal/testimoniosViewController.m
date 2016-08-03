@@ -24,20 +24,49 @@
 
 
 -(IBAction)play:(id)sender{
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
+    
+    if ([countryCode isEqualToString:@"BR"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio1_br.mp4"];
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else{
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio1.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+
     
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio1.mp4"];  // sample url
-    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
-    
-    // Logic for play movie in landscape
-    CGAffineTransform landscapeTransform;
-    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
-    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
-    [movieController.moviePlayer.view setTransform: landscapeTransform];
-    
-    [self presentMoviePlayerViewControllerAnimated:movieController];
-    [movieController.moviePlayer prepareToPlay];
-    [movieController.moviePlayer play];
+//    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio1.mp4"];  // sample url
+//    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+//    
+//    // Logic for play movie in landscape
+//    CGAffineTransform landscapeTransform;
+//    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+//    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+//    [movieController.moviePlayer.view setTransform: landscapeTransform];
+//    
+//    [self presentMoviePlayerViewControllerAnimated:movieController];
+//    [movieController.moviePlayer prepareToPlay];
+//    [movieController.moviePlayer play];
     
     
     
@@ -65,19 +94,49 @@
 
 -(IBAction)play2:(id)sender{
     
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio2.mp4"];  // sample url
-    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    if ([countryCode isEqualToString:@"BR"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio2_br.mp4"];
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else{
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio2.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+
     
-    // Logic for play movie in landscape
-    CGAffineTransform landscapeTransform;
-    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
-    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
-    [movieController.moviePlayer.view setTransform: landscapeTransform];
     
-    [self presentMoviePlayerViewControllerAnimated:movieController];
-    [movieController.moviePlayer prepareToPlay];
-    [movieController.moviePlayer play];
+//    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio2.mp4"];  // sample url
+//    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+//    
+//    // Logic for play movie in landscape
+//    CGAffineTransform landscapeTransform;
+//    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+//    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+//    [movieController.moviePlayer.view setTransform: landscapeTransform];
+//    
+//    [self presentMoviePlayerViewControllerAnimated:movieController];
+//    [movieController.moviePlayer prepareToPlay];
+//    [movieController.moviePlayer play];
     
     
     /*
@@ -94,20 +153,54 @@
     
 }
 
+-(IBAction)irweb:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.comprometidoscomumpesosaudavel.pt"]];
+}
+
 -(IBAction)play3:(id)sender{
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio3.mp4"];  // sample url
-    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
     
-    // Logic for play movie in landscape
-    CGAffineTransform landscapeTransform;
-    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
-    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
-    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    if ([countryCode isEqualToString:@"BR"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio3_br.mp4"];
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else{
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio3.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+
     
-    [self presentMoviePlayerViewControllerAnimated:movieController];
-    [movieController.moviePlayer prepareToPlay];
-    [movieController.moviePlayer play];
+//    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio3.mp4"];  // sample url
+//    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+//    
+//    // Logic for play movie in landscape
+//    CGAffineTransform landscapeTransform;
+//    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+//    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+//    [movieController.moviePlayer.view setTransform: landscapeTransform];
+//    
+//    [self presentMoviePlayerViewControllerAnimated:movieController];
+//    [movieController.moviePlayer prepareToPlay];
+//    [movieController.moviePlayer play];
     
     
     /*
@@ -125,19 +218,48 @@
 }
 
 -(IBAction)play4:(id)sender{
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
     
-    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];  // sample url
-    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    if ([countryCode isEqualToString:@"BR"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4_br.mp4"];
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else{
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+
     
-    // Logic for play movie in landscape
-    CGAffineTransform landscapeTransform;
-    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
-    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
-    [movieController.moviePlayer.view setTransform: landscapeTransform];
-    
-    [self presentMoviePlayerViewControllerAnimated:movieController];
-    [movieController.moviePlayer prepareToPlay];
-    [movieController.moviePlayer play];
+//    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];  // sample url
+//    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+//    
+//    // Logic for play movie in landscape
+//    CGAffineTransform landscapeTransform;
+//    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+//    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+//    [movieController.moviePlayer.view setTransform: landscapeTransform];
+//    
+//    [self presentMoviePlayerViewControllerAnimated:movieController];
+//    [movieController.moviePlayer prepareToPlay];
+//    [movieController.moviePlayer play];
     
     /*
     //NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];

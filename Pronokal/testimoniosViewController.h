@@ -17,4 +17,5 @@
 -(IBAction)play2:(id)sender;
 -(IBAction)play3:(id)sender;
 -(IBAction)play4:(id)sender;
+-(IBAction)irweb:(id)sender;
 @end
