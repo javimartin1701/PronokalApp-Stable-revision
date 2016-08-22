@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="texto_contacto3.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-kX-oBc">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="texto_contacto3.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-kX-oBc">
                                 <rect key="frame" x="87" y="20" width="146" height="223"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="m0d-kX-oBc" secondAttribute="height" multiplier="146:223" id="EoU-hT-c2m"/>
@@ -133,6 +133,7 @@
                             <constraint firstItem="m0d-kX-oBc" firstAttribute="centerX" secondItem="G2b-Yf-1mY" secondAttribute="centerX" id="4hH-JZ-CaH"/>
                             <constraint firstItem="hVv-Dx-lSc" firstAttribute="leading" secondItem="G2b-Yf-1mY" secondAttribute="leadingMargin" constant="-20" id="E2J-go-aJK"/>
                             <constraint firstItem="b2U-4p-JXh" firstAttribute="width" secondItem="b2U-4p-JXh" secondAttribute="height" multiplier="164:61" id="Hpc-hL-jpe"/>
+                            <constraint firstItem="yOD-xD-rm4" firstAttribute="centerX" secondItem="G2b-Yf-1mY" secondAttribute="centerX" id="IJU-1Q-ZBP"/>
                             <constraint firstItem="uIz-BS-ea6" firstAttribute="width" secondItem="uIz-BS-ea6" secondAttribute="height" multiplier="164:61" id="LP4-hV-3Ps"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hVv-Dx-lSc" secondAttribute="trailing" constant="-20" id="Mee-dE-MIq"/>
                             <constraint firstItem="2Vk-Fj-5nI" firstAttribute="width" secondItem="2Vk-Fj-5nI" secondAttribute="height" multiplier="164:61" id="cw9-nc-WmQ"/>
@@ -162,7 +163,7 @@
             </objects>
             <point key="canvasLocation" x="164" y="1006"/>
         </scene>
-        <!--Acesso au club-->
+        <!--Acesso ao club-->
         <scene sceneID="L9z-4j-t7f">
             <objects>
                 <viewController id="Cy8-pz-gFb" customClass="ClubViewController" sceneMemberID="viewController">
@@ -187,7 +188,7 @@
                             <constraint firstItem="mkP-B3-a5N" firstAttribute="top" secondItem="pEN-C6-mJX" secondAttribute="topMargin" id="m0G-uC-ruO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Acesso au club" image="club.png" id="rYY-Pz-n4n"/>
+                    <tabBarItem key="tabBarItem" title="Acesso ao club" image="club.png" id="rYY-Pz-n4n"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="clubpage" destination="mkP-B3-a5N" id="qf5-sy-y8a"/>

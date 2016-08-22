@@ -134,7 +134,7 @@
     }
     
     else if ([countryCode isEqualToString:@"PT"]){
-        [self openMapToLatitude:38.7378429	 longitude:-9.1483957];
+        [self openMapToLatitude:38.7385683	 longitude:-9.1460575];
         NSLog(@"IR A PT");
     }
 
