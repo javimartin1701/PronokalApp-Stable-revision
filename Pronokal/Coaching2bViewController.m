@@ -95,7 +95,8 @@ int B=0;
     amasd.text = [NSString stringWithFormat:@"%d", sAmasD];
     bmasc.text = [NSString stringWithFormat:@"%d", sBmasC];
     
-    
+    A=0;
+    B=0;
     
     A=sAmasD;
     B=sBmasC;
