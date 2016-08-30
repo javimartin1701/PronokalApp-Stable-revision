@@ -196,6 +196,9 @@
     else if ([countryCode isEqualToString:@"CH"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
     }
+    else if ([countryCode isEqualToString:@"GB"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weeks"];
+    }
 
     
     resultado.text=resultadot;
@@ -213,6 +216,11 @@
     NSLog(@"%@",lang);
     if([lang isEqualToString:@"be"]||[lang isEqualToString:@"ch"]){
         lang=@"fr";
+        NSLog(@"PAIS");
+    }
+    
+    if([lang isEqualToString:@"gb"]){
+        lang=@"en";
         NSLog(@"PAIS");
     }
     
@@ -386,6 +394,8 @@
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
     NSLog(@"%@",countryCode);
+    
+    
 
     
 //    if ([countryCode isEqualToString:@"NL"]){
@@ -421,6 +431,9 @@
     else if ([countryCode isEqualToString:@"CH"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
     }
+    else if ([countryCode isEqualToString:@"GB"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weeks"];
+    }
     
     
 
@@ -439,6 +452,10 @@
         NSLog(@"PAIS");
     }
     
+    if([lang isEqualToString:@"gb"]){
+        lang=@"en";
+        NSLog(@"PAIS");
+    }
     
     
     NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=h&altura=%.1f&peso=%.1f&edad=%.f&lang=%@", saltura, speso, sedad, lang];
