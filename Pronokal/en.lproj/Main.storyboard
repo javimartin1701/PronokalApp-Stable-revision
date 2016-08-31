@@ -649,14 +649,13 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9gK-hL-dDj">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Motivation is key to success. Find out in only 3 steps how to improve your motivation" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9gK-hL-dDj">
                                                 <rect key="frame" x="40" y="320" width="240" height="128"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="9gK-hL-dDj" secondAttribute="height" multiplier="15:8" id="cR3-54-7rB"/>
                                                     <constraint firstAttribute="width" constant="240" id="ihh-vJ-iNH"/>
                                                 </constraints>
-                                                <string key="text">Your motivation for change is still not strong enough to start down the path towards a healthier weight and a healthier lifestyle. The PronoKal Group Coaching Department will help you increase your motivation.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -668,7 +667,7 @@
                                                     <constraint firstAttribute="width" secondItem="CsF-hu-usg" secondAttribute="height" multiplier="15:8" id="4lP-Yq-T40"/>
                                                     <constraint firstAttribute="width" constant="240" id="M1Y-dc-dbF"/>
                                                 </constraints>
-                                                <string key="text">It seems as though you are undecided about starting down the path towards reaching your goal. Do you feel you want to both change and stay the same? The PronoKal Group Coaching Department will help you strengthen your motivation.</string>
+                                                <string key="text">Your motivation to change is still not strong enough to initiate losing weight to achieve better health. Our department will help increase your motivation.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -867,10 +866,10 @@
             </objects>
             <point key="canvasLocation" x="-713" y="-648"/>
         </scene>
-        <!--Testimonios View Controller-->
+        <!--Testimonios View ControllerNL-->
         <scene sceneID="5az-Ra-ypQ">
             <objects>
-                <viewController id="3po-R3-VDS" customClass="testimoniosViewController" sceneMemberID="viewController">
+                <viewController id="3po-R3-VDS" customClass="testimoniosViewControllerNL" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0TB-Lq-fmr"/>
                         <viewControllerLayoutGuide type="bottom" id="4vw-hD-IrR"/>
@@ -883,62 +882,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="testimonios1b_rev2_v4_en.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s1e-yR-14a">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="515"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2530"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="98G-kg-slH"/>
+                                            <constraint firstAttribute="width" secondItem="s1e-yR-14a" secondAttribute="height" multiplier="32:253" id="Hd8-Nd-c4x"/>
                                             <constraint firstAttribute="width" secondItem="s1e-yR-14a" secondAttribute="height" multiplier="64:103" id="dd3-mD-kuE"/>
+                                            <constraint firstAttribute="width" constant="320" id="m87-dv-ZXL"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="98G-kg-slH"/>
+                                                <exclude reference="dd3-mD-kuE"/>
+                                            </mask>
+                                        </variation>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ult-gu-CBs">
-                                        <rect key="frame" x="8" y="269" width="95" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="ult-gu-CBs" secondAttribute="height" multiplier="95:48" id="3TP-1l-UcQ"/>
-                                            <constraint firstAttribute="width" constant="95" id="fnJ-56-DJm"/>
-                                        </constraints>
-                                        <connections>
-                                            <action selector="play:" destination="3po-R3-VDS" eventType="touchUpInside" id="mJW-wc-aJm"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJa-CU-y2K">
-                                        <rect key="frame" x="8" y="333" width="95" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="xJa-CU-y2K" secondAttribute="height" multiplier="95:48" id="ZOx-f5-mc9"/>
-                                            <constraint firstAttribute="width" constant="95" id="aVa-Uk-Wyv"/>
-                                        </constraints>
-                                        <connections>
-                                            <action selector="play2:" destination="3po-R3-VDS" eventType="touchUpInside" id="ldA-ic-3gG"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRc-cP-waf">
-                                        <rect key="frame" x="8" y="395" width="95" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="PRc-cP-waf" secondAttribute="height" multiplier="95:48" id="0pC-Dr-jEo"/>
-                                            <constraint firstAttribute="width" constant="95" id="yUt-hH-WO7"/>
-                                        </constraints>
-                                        <connections>
-                                            <action selector="play3:" destination="3po-R3-VDS" eventType="touchUpInside" id="kaj-mT-K4g"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oP-qA-SGQ">
-                                        <rect key="frame" x="8" y="456" width="95" height="48"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="3oP-qA-SGQ" secondAttribute="height" multiplier="95:48" id="H2r-Rp-bfM"/>
-                                            <constraint firstAttribute="width" constant="95" id="tug-AE-IeM"/>
-                                        </constraints>
-                                        <connections>
-                                            <action selector="play4:" destination="3po-R3-VDS" eventType="touchUpInside" id="Qv6-Iy-85w"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="d0o-Ey-Pdz">
-                                        <rect key="frame" x="109" y="575" width="300" height="30"/>
+                                        <rect key="frame" x="109" y="2200" width="300" height="30"/>
                                         <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="BNw-uq-WJQ"/>
-                                            <constraint firstAttribute="width" secondItem="d0o-Ey-Pdz" secondAttribute="height" multiplier="25:3" id="zgd-2K-sWY"/>
+                                            <constraint firstAttribute="width" constant="200" id="UV0-ul-qnt"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                         <state key="normal" title="CHECK OUT SOME OF OUR LIFE CHANGING TESTIMONIALS">
@@ -950,22 +912,18 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="PRc-cP-waf" firstAttribute="top" secondItem="xJa-CU-y2K" secondAttribute="bottom" constant="14" id="4yW-rl-O7G"/>
-                                    <constraint firstItem="xJa-CU-y2K" firstAttribute="top" secondItem="ult-gu-CBs" secondAttribute="bottom" constant="16" id="DBh-17-gVT"/>
+                                    <constraint firstItem="d0o-Ey-Pdz" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" id="0xl-RP-pAG"/>
                                     <constraint firstItem="s1e-yR-14a" firstAttribute="top" secondItem="A5U-Nl-qJ2" secondAttribute="top" id="E33-0o-OBX"/>
-                                    <constraint firstItem="3oP-qA-SGQ" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" constant="-100" id="GWm-9y-0yh"/>
-                                    <constraint firstItem="ult-gu-CBs" firstAttribute="top" secondItem="A5U-Nl-qJ2" secondAttribute="top" constant="269" id="HJN-Kw-ZvE"/>
-                                    <constraint firstItem="3oP-qA-SGQ" firstAttribute="top" secondItem="PRc-cP-waf" secondAttribute="bottom" constant="13" id="IY6-Ug-nCZ"/>
+                                    <constraint firstItem="d0o-Ey-Pdz" firstAttribute="top" secondItem="A5U-Nl-qJ2" secondAttribute="top" constant="2200" id="Gno-gY-z4P"/>
                                     <constraint firstItem="d0o-Ey-Pdz" firstAttribute="top" secondItem="s1e-yR-14a" secondAttribute="bottom" constant="60" id="LP0-Nu-agw"/>
-                                    <constraint firstItem="d0o-Ey-Pdz" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" id="RYk-B0-IiG"/>
-                                    <constraint firstItem="PRc-cP-waf" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" constant="-100" id="SXq-GV-ZgO"/>
-                                    <constraint firstItem="ult-gu-CBs" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" constant="-100" id="TkY-PH-T8J"/>
                                     <constraint firstItem="d0o-Ey-Pdz" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" id="gc6-EN-91R"/>
-                                    <constraint firstItem="s1e-yR-14a" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" id="uJx-Nh-Qua"/>
-                                    <constraint firstItem="xJa-CU-y2K" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" constant="-100" id="xzz-VO-o01"/>
+                                    <constraint firstItem="s1e-yR-14a" firstAttribute="top" secondItem="A5U-Nl-qJ2" secondAttribute="top" id="sNC-qW-uyE"/>
+                                    <constraint firstItem="s1e-yR-14a" firstAttribute="centerX" secondItem="A5U-Nl-qJ2" secondAttribute="centerX" id="utA-hc-2dc"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="E33-0o-OBX"/>
+                                        <exclude reference="LP0-Nu-agw"/>
                                         <exclude reference="gc6-EN-91R"/>
                                     </mask>
                                 </variation>
@@ -3726,7 +3684,7 @@ CQ
         <image name="resultadoimc.jpg" width="744" height="1224"/>
         <image name="resultadoimc_en.jpg" width="744" height="1224"/>
         <image name="sobre.png" width="123" height="123"/>
-        <image name="testimonios1b_rev2_v4_en.jpg" width="753" height="1218"/>
+        <image name="testimonios1b_rev2_v4_en.jpg" width="753" height="6000"/>
         <image name="texto-contacto-mx.png" width="426" height="180"/>
         <image name="texto-contacto-rd.png" width="426" height="162"/>
         <image name="texto-contacto-uk.jpg" width="426" height="162"/>
