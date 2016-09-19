@@ -1679,11 +1679,11 @@
                                                     <constraint firstAttribute="width" secondItem="gVl-8y-r36" secondAttribute="height" multiplier="21:19" id="9bu-T9-d3B"/>
                                                 </constraints>
                                             </imageView>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hH5-uJ-Oii">
+                                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hH5-uJ-Oii">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Underweight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-3n-NjG">
-                                                        <rect key="frame" x="78" y="8" width="104" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Underweight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-3n-NjG">
+                                                        <rect key="frame" x="78" y="8" width="250" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -1698,6 +1698,9 @@
                                                     </textView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="Xkt-3n-NjG" firstAttribute="centerX" secondItem="hH5-uJ-Oii" secondAttribute="centerX" id="iZ2-1T-PUO"/>
+                                                </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CjL-Un-Fwg">
                                                 <rect key="frame" x="31" y="251" width="261" height="190"/>
@@ -1711,7 +1714,7 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Your BMI indicates that you are at a healthy weight for your height. Even so, you may have excess fat, so we recommend doing a fat mass index study to rule out this possibility. If you want to determine your fat mass index, contact PronoKal Group.
+                                                        <string key="text">Your BMI indicates that your weight is ideal for your height. However, you may still have excess fat and therefore it would be useful to do a body composition analysis.
 </string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1732,7 +1735,8 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKx-mb-tfK">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">Your BMI indicates that you are overweight which increases your risk of certain diseases. You should start thinking about losing weight. Please contact us as we are experts and we are able to help get you to a healthy weight.</string>
+                                                        <string key="text">Your BMI indicates that you are overweight which increases your risk of certain diseases. 
+You should start thinking about losing weight. Please contact us as we are experts and we are able to help get you to a healthy weight.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1775,7 +1779,9 @@
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
-                                                        <string key="text">This medical condition is directly linked to cardiovascular disease, osteoarthritis and other co-morbilities.You should take the necessary steps to lose weight in order to reduce your risk of these co-morbilities.Do not hesitate to contact us for help.</string>
+                                                        <string key="text">This medical condition is directly linked to cardiovascular disease, osteoarthritis and other co-morbilities.
+You should take the necessary steps to lose weight in order to reduce your risk of these co-morbilities.
+Do not hesitate to contact us for help.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

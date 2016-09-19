@@ -57,6 +57,18 @@
         [movieController.moviePlayer prepareToPlay];
         [movieController.moviePlayer play];
     }
+    else if ([countryCode isEqualToString:@"PT"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/apoyo_pt.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
     else if ([countryCode isEqualToString:@"GB"]){
         NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/apoyo_en.mp4"];  // sample url
         MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];

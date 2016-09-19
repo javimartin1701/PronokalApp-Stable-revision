@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="texto_contacto3.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-kX-oBc">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="texto_contacto3.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-kX-oBc">
                                 <rect key="frame" x="87" y="20" width="146" height="223"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="m0d-kX-oBc" secondAttribute="height" multiplier="146:223" id="EoU-hT-c2m"/>
@@ -953,7 +953,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="9ZP-fM-2Gu" kind="show" id="KSH-jn-geD"/>
+                                            <action selector="irweb:" destination="3po-R3-VDS" eventType="touchUpInside" id="XwB-Pp-CJk"/>
                                         </connections>
                                     </button>
                                 </subviews>

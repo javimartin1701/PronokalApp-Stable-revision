@@ -178,6 +178,7 @@
 }
 
 -(IBAction)irweb:(id)sender{
+     NSLog(@"IR WEB");
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.comprometidoscomumpesosaudavel.pt"]];
 }
 
