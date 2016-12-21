@@ -192,7 +192,7 @@
         NSLog(@"BRASIL");
     }
     else if ([countryCode isEqualToString:@"PT"]){
-        toRecipents2 = [NSArray arrayWithObject:@"info@pronokal.com"];
+        toRecipents2 = [NSArray arrayWithObject:@"info.pt@clubpronokal.com"];
         NSLog(@"PORTUGAL");
     }
     else if ([countryCode isEqualToString:@"CH"]){

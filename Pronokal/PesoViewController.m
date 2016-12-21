@@ -23,10 +23,14 @@
 }
 
 -(IBAction)prePantallaResultado:(id)sender{
+    NSLog(@"PREPANTALLA RESULTADO");
     pantallaresultado.hidden=NO;
+    prepantallaresultado.hidden=YES;
 }
 
 -(IBAction)calcular:(id)sender{
+    prepantalla2.hidden=YES;
+    NSLog(@"CALCULA PESO IDEAL....TEST");
     prepantallaresultado.hidden=NO;
     
   
@@ -278,9 +282,16 @@
 }
 
 
+-(IBAction)prueba:(id)sender{
+    NSLog(@"PRUEBAAAAA");
+
+    
+}
+
 /////////////////////Calculo para hombre////////////////////////
 
 -(IBAction)calcularHombre:(id)sender{
+    NSLog(@"CalculoHombre");
     prepantallaresultado.hidden=NO;
     
     
@@ -381,7 +392,7 @@
     duracionTratamiento=((total3*0.4)/2.6)+((total3*0.2)/2.35)+((total3*0.2)/2.25)+duracionRed;
     
     int duracionRound = lroundf(duracionTratamiento);
-    
+   // NSLog(@"Duracion tratamiento: %@d",duracionRound);
     if (total3<0){
         sinperder.hidden=NO;
     }

@@ -127,7 +127,11 @@
     
     
     
+    
     int duracionRound = lroundf(duracionTratamiento);
+    
+    NSLog(@"Duracion tratamiento: %@",duracionRound);
+    
   NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
   NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
   

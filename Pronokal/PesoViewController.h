@@ -16,8 +16,12 @@
     IBOutlet UILabel *resultado;
     
     IBOutlet UIButton *redirigir;
+    IBOutlet UIButton *prepantalla;
+    IBOutlet UIButton *prepantalla2;
+    
     
     IBOutlet UIView *sinperder;
+    
     
     IBOutlet UILabel *pesoIdeal;
     IBOutlet UILabel *pesoPerder;
@@ -55,5 +59,5 @@
 -(IBAction)calcularHombre:(id)sender;
 
 -(IBAction)vetGrafica:(id)sender;
-
+-(IBAction)prueba:(id)sender;
 @end
