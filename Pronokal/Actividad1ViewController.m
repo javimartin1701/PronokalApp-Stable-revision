@@ -20,10 +20,48 @@
 -(IBAction)play:(id)sender{
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     NSLog(@"%@",countryCode);
     
     if ([countryCode isEqualToString:@"NL"]){
         NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/actividadfisica_nl.mp4"];
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else if([language isEqualToString:@"nl-BE"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/actividadfisica_nl.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    
+    else if([language isEqualToString:@"fr-BE"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/actividadfisica_fr.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else if ([countryCode isEqualToString:@"FR"]||[countryCode isEqualToString:@"CH"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/actividadfisica_fr.mp4"];  // sample url
         MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
         CGAffineTransform landscapeTransform;
         landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
@@ -46,8 +84,8 @@
         [movieController.moviePlayer prepareToPlay];
         [movieController.moviePlayer play];
     }
-    else if ([countryCode isEqualToString:@"BR"]){
-        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/actividadfisica_br.mp4"];  // sample url
+    else if ([countryCode isEqualToString:@"GB"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/actividadfisica2_en.mp4"];  // sample url
         MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
         CGAffineTransform landscapeTransform;
         landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);

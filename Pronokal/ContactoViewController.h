@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
+#import <MapKit/MapKit.h>
 
-@interface ContactoViewController : UIViewController{
+@interface ContactoViewController : UIViewController < MKMapViewDelegate >{
     IBOutlet UIScrollView *scroller;
     IBOutlet UIImageView *textoEspana;
     IBOutlet UIImageView *textoArgentina;
@@ -23,11 +24,17 @@
     IBOutlet UIView *llamarGroup;
     IBOutlet UIView *mailGroup;
     IBOutlet UIView *principal;
+    BOOL _doneInitialZoom;
+    IBOutlet MKMapView *Localizacion;
+    IBOutlet UIButton *cerrarMapa;
     
 }
+
+@property (nonatomic, retain) IBOutlet MKMapView *Localizacion;
 
 - (IBAction)llamar:(id)sender;
 - (IBAction)mail:(id)sender;
 - (IBAction)llegar:(id)sender;
+-(IBAction)closeMapa:(id)sender;
 
 @end

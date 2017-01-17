@@ -21,7 +21,9 @@
     
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     NSLog(@"%@",countryCode);
+    NSLog(@"%@",language);
     
     if ([countryCode isEqualToString:@"NL"]){
         NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutricion_nl.mp4"];
@@ -35,7 +37,32 @@
         [movieController.moviePlayer prepareToPlay];
         [movieController.moviePlayer play];
     }
-    else if ([countryCode isEqualToString:@"FR"]||[countryCode isEqualToString:@"BE"]||[countryCode isEqualToString:@"CH"]){
+    else if([language isEqualToString:@"nl-BE"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutricion_nl.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    
+    else if([language isEqualToString:@"fr-BE"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutrition_fr.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    else if ([countryCode isEqualToString:@"FR"]||[countryCode isEqualToString:@"CH"]){
         NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/nutricion_fr.mp4"];  // sample url
         MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
         CGAffineTransform landscapeTransform;

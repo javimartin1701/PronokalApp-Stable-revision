@@ -155,6 +155,93 @@
 
 
 
+-(IBAction)playUK1:(id)sender{
+    
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/tnuevo1_uk.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
+    
+    /*
+     //NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+     NSURL *url4 = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];
+     
+     mpc4=[[MPMoviePlayerController alloc] initWithContentURL:url4];
+     
+     [mpc4 setMovieSourceType:MPMovieSourceTypeFile];
+     
+     [[self view]addSubview:mpc4.view];
+     [mpc4 setFullscreen:YES];
+     [mpc4 play];
+     */
+}
+
+
+-(IBAction)playUK2:(id)sender{
+    
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/tnuevo2_uk.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
+    
+    /*
+     //NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+     NSURL *url4 = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];
+     
+     mpc4=[[MPMoviePlayerController alloc] initWithContentURL:url4];
+     
+     [mpc4 setMovieSourceType:MPMovieSourceTypeFile];
+     
+     [[self view]addSubview:mpc4.view];
+     [mpc4 setFullscreen:YES];
+     [mpc4 play];
+     */
+}
+
+-(IBAction)playUK3:(id)sender{
+    
+    NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/tnuevo3_uk.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
+    
+    /*
+     //NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+     NSURL *url4 = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/testimonio4.mp4"];
+     
+     mpc4=[[MPMoviePlayerController alloc] initWithContentURL:url4];
+     
+     [mpc4 setMovieSourceType:MPMovieSourceTypeFile];
+     
+     [[self view]addSubview:mpc4.view];
+     [mpc4 setFullscreen:YES];
+     [mpc4 play];
+     */
+}
 
 
 
@@ -162,7 +249,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [scrolltestimonios setScrollEnabled:YES];
-    [scrolltestimonios setContentSize:CGSizeMake(320,2300)];
+    [scrolltestimonios setContentSize:CGSizeMake(320,2900)];
 }
 
 - (void)didReceiveMemoryWarning {

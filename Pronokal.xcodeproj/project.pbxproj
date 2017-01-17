@@ -116,6 +116,7 @@
 		048E3C761D3E7AE100D6CD39 /* testimonios1b_rev2_v4_pt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048E3C681D3E7AE100D6CD39 /* testimonios1b_rev2_v4_pt.jpg */; };
 		048E3C771D3E7AE100D6CD39 /* tuto2_v4_r_pt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048E3C691D3E7AE100D6CD39 /* tuto2_v4_r_pt.jpg */; };
 		048E3C781D3E7AE100D6CD39 /* tuto3_v4_r2_pt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048E3C6A1D3E7AE100D6CD39 /* tuto3_v4_r2_pt.jpg */; };
+		04917AAD1E24EBD900A66DC6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04917AAC1E24EBD900A66DC6 /* MapKit.framework */; };
 		04A017661CC414F100B49EAA /* texto_contacto3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A017651CC414F100B49EAA /* texto_contacto3.png */; };
 		04AB01A91D3D257B00FEA0FF /* actividad1a_rev2_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04AB019C1D3D257B00FEA0FF /* actividad1a_rev2_v4_1_br.jpg */; };
 		04AB01AA1D3D257B00FEA0FF /* actividad2a_rev_v4_2_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04AB019D1D3D257B00FEA0FF /* actividad2a_rev_v4_2_br.jpg */; };
@@ -179,6 +180,9 @@
 		04D50E041D339A030018A5BA /* resultado_test_v4_r2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D50E061D339A030018A5BA /* resultado_test_v4_r2.jpg */; };
 		04D50E0C1D33A53C0018A5BA /* home-pre_rev_v4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D50E0E1D33A53C0018A5BA /* home-pre_rev_v4.jpg */; };
 		04F2D4CB1C7C647900B0521B /* resultado_test_v4_r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F2D4CA1C7C647800B0521B /* resultado_test_v4_r.jpg */; };
+		04F4BEFC1E2E24B600F756E1 /* testimonio_nuevo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4BEF91E2E24B600F756E1 /* testimonio_nuevo1.jpg */; };
+		04F4BEFD1E2E24B600F756E1 /* testimonio_nuevo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4BEFA1E2E24B600F756E1 /* testimonio_nuevo2.jpg */; };
+		04F4BEFE1E2E24B600F756E1 /* testimonio_nuevo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04F4BEFB1E2E24B600F756E1 /* testimonio_nuevo3.jpg */; };
 		8E0515761BE3C72F00E26054 /* testtext1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0515721BE3C72F00E26054 /* testtext1.jpg */; };
 		8E0515771BE3C72F00E26054 /* testtext2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0515731BE3C72F00E26054 /* testtext2.jpg */; };
 		8E0515781BE3C72F00E26054 /* testtext3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0515741BE3C72F00E26054 /* testtext3.jpg */; };
@@ -506,6 +510,7 @@
 		048E3C681D3E7AE100D6CD39 /* testimonios1b_rev2_v4_pt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonios1b_rev2_v4_pt.jpg; sourceTree = "<group>"; };
 		048E3C691D3E7AE100D6CD39 /* tuto2_v4_r_pt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto2_v4_r_pt.jpg; sourceTree = "<group>"; };
 		048E3C6A1D3E7AE100D6CD39 /* tuto3_v4_r2_pt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto3_v4_r2_pt.jpg; sourceTree = "<group>"; };
+		04917AAC1E24EBD900A66DC6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		04A017651CC414F100B49EAA /* texto_contacto3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texto_contacto3.png; sourceTree = "<group>"; };
 		04AB019C1D3D257B00FEA0FF /* actividad1a_rev2_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actividad1a_rev2_v4_1_br.jpg; sourceTree = "<group>"; };
 		04AB019D1D3D257B00FEA0FF /* actividad2a_rev_v4_2_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actividad2a_rev_v4_2_br.jpg; sourceTree = "<group>"; };
@@ -572,6 +577,9 @@
 		04D50E051D339A030018A5BA /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fr; path = fr.lproj/resultado_test_v4_r2.jpg; sourceTree = "<group>"; };
 		04D50E0D1D33A53C0018A5BA /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fr; path = "fr.lproj/home-pre_rev_v4.jpg"; sourceTree = "<group>"; };
 		04F2D4CA1C7C647800B0521B /* resultado_test_v4_r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultado_test_v4_r.jpg; sourceTree = "<group>"; };
+		04F4BEF91E2E24B600F756E1 /* testimonio_nuevo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonio_nuevo1.jpg; sourceTree = "<group>"; };
+		04F4BEFA1E2E24B600F756E1 /* testimonio_nuevo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonio_nuevo2.jpg; sourceTree = "<group>"; };
+		04F4BEFB1E2E24B600F756E1 /* testimonio_nuevo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonio_nuevo3.jpg; sourceTree = "<group>"; };
 		8E0515721BE3C72F00E26054 /* testtext1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testtext1.jpg; sourceTree = "<group>"; };
 		8E0515731BE3C72F00E26054 /* testtext2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testtext2.jpg; sourceTree = "<group>"; };
 		8E0515741BE3C72F00E26054 /* testtext3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testtext3.jpg; sourceTree = "<group>"; };
@@ -805,6 +813,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04917AAD1E24EBD900A66DC6 /* MapKit.framework in Frameworks */,
 				8EE1F2731BD40977007A3D73 /* MediaPlayer.framework in Frameworks */,
 				8EC69C161BC683E800B7149E /* MessageUI.framework in Frameworks */,
 			);
@@ -930,6 +939,14 @@
 			name = ImagenesFR;
 			sourceTree = "<group>";
 		};
+		04917AAB1E24EBD800A66DC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04917AAC1E24EBD900A66DC6 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04C6FCE91D37E3650053AFA1 /* ImagenesNL */ = {
 			isa = PBXGroup;
 			children = (
@@ -969,6 +986,9 @@
 				0473AF981D33F4D600F700D6 /* actividad1a_rev2_v4_1_en.jpg */,
 				0473AF991D33F4D600F700D6 /* actividad2a_rev_v4_2_en.jpg */,
 				0473AF9A1D33F4D600F700D6 /* calc1-m2b_rev_v4_1_en.jpg */,
+				04F4BEF91E2E24B600F756E1 /* testimonio_nuevo1.jpg */,
+				04F4BEFA1E2E24B600F756E1 /* testimonio_nuevo2.jpg */,
+				04F4BEFB1E2E24B600F756E1 /* testimonio_nuevo3.jpg */,
 				0473AF9B1D33F4D600F700D6 /* coaching-a2_v4_r_en.jpg */,
 				0473AF9C1D33F4D600F700D6 /* coaching1_v4_1_en.jpg */,
 				0473AF9D1D33F4D600F700D6 /* control1a_rev_v4_en.jpg */,
@@ -1007,6 +1027,7 @@
 				8EC69BBA1BC56B6F00B7149E /* PronokalTests */,
 				8EC69BC51BC56B6F00B7149E /* PronokalUITests */,
 				8EC69B9F1BC56B6E00B7149E /* Products */,
+				04917AAB1E24EBD800A66DC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1582,6 +1603,7 @@
 				8E2E8AAD1BF4BCB50019B4B5 /* tuto3.jpg in Resources */,
 				04AB01AE1D3D257B00FEA0FF /* nutricion-2a_rev_v4_1_r_br.jpg in Resources */,
 				8E50DCE11C03389500F05A68 /* nutricion-2a_rev_v4_1.jpg in Resources */,
+				04F4BEFC1E2E24B600F756E1 /* testimonio_nuevo1.jpg in Resources */,
 				04D50E041D339A030018A5BA /* resultado_test_v4_r2.jpg in Resources */,
 				04013C411D36819B00344073 /* tuto1_v4_1_pt.jpg in Resources */,
 				04A017661CC414F100B49EAA /* texto_contacto3.png in Resources */,
@@ -1679,6 +1701,7 @@
 				8EC69C0F1BC6737300B7149E /* texto-contacto.png in Resources */,
 				8EC69C181BC6A58F00B7149E /* llamadas.png in Resources */,
 				04D50D9F1D2FBEF40018A5BA /* nutricion-1a_rev2_v4.jpg in Resources */,
+				04F4BEFE1E2E24B600F756E1 /* testimonio_nuevo3.jpg in Resources */,
 				8E2E8AA21BF3B0E70019B4B5 /* boton_peso_rev.jpg in Resources */,
 				8E2E8ABF1BF4E62C0019B4B5 /* icon-120_rev.png in Resources */,
 				8EC69C111BC675E300B7149E /* logo_texto2.png in Resources */,
@@ -1726,6 +1749,7 @@
 				04013C391D36819B00344073 /* paso4_rev_v4_1_pt.jpg in Resources */,
 				8EC69C311BCD101D00B7149E /* boton_testimonios.jpg in Resources */,
 				048E3C6F1D3E7AE100D6CD39 /* home-pre_rev_v4_pt.jpg in Resources */,
+				04F4BEFD1E2E24B600F756E1 /* testimonio_nuevo2.jpg in Resources */,
 				8EC69C061BC5820D00B7149E /* atras@2x.png in Resources */,
 				8ED9F4091BFE4A2F0076FA3F /* boton_club_v4.jpg in Resources */,
 				8E472D321BEA2CA300DA903A /* fondoGrafica2.jpg in Resources */,

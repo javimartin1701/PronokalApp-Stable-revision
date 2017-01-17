@@ -7,6 +7,7 @@
 //
 
 #import "ContactoViewController.h"
+#import <MapKit/MapKit.h>
 
 @interface ContactoViewController ()
 
@@ -46,7 +47,7 @@
         NSLog(@"MEXICO");
     }
     else if ([countryCode isEqualToString:@"BR"]){
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:31753000"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:032224501"]];
         NSLog(@"BR");
     }
     else if ([countryCode isEqualToString:@"PT"]){
@@ -54,7 +55,7 @@
         NSLog(@"PT");
     }
     else if ([countryCode isEqualToString:@"BE"]){
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:070354712"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:032224501"]];
         NSLog(@"BE");
     }
     else if ([countryCode isEqualToString:@"NL"]){
@@ -134,7 +135,9 @@
     }
     
     else if ([countryCode isEqualToString:@"PT"]){
-        [self openMapToLatitude:38.7385683	 longitude:-9.1460575];
+//        [self openMapToLatitude:38.7385683	 longitude:-9.1460575];
+        Localizacion.hidden=NO;
+        cerrarMapa.hidden=NO;
         NSLog(@"IR A PT");
     }
 
@@ -150,18 +153,35 @@
     
 }
 
+-(IBAction)closeMapa:(id)sender{
+    Localizacion.hidden=YES;
+    cerrarMapa.hidden=YES;
+
+}
+
 - (IBAction)mail:(id)sender {
-    
-    
-    
-    // Email Subject
-    NSString *emailTitle = @"Contacto a través de Pronokal App";
-    // Email Content
-    NSString *messageBody = @"";
-    // To address
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
     NSLog(@"%@",countryCode);
+    // Email Subject
+    NSString *emailTitle = @"Contacto a través de Pronokal App";
+
+    
+    if ([countryCode isEqualToString:@"NL"]){
+        // Email Subject
+        emailTitle = @"Contact through Pronokal App";
+
+    }
+    else if ([countryCode isEqualToString:@"BE"]){
+        // Email Subject
+        emailTitle = @"Contact through Pronokal App";
+        
+    }
+    
+        // Email Content
+    NSString *messageBody = @"";
+    // To address
+        NSLog(@"%@",countryCode);
 
     if ([countryCode isEqualToString:@"ES"]) {
          toRecipents2 = [NSArray arrayWithObject:@"info@pronokal.com"];
@@ -260,6 +280,8 @@
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320,400)];
     [super viewDidLoad];
+    Localizacion.hidden=YES;
+    cerrarMapa.hidden=YES;
     textoEspana.hidden=YES;
     textoArgentina.hidden=YES;
     textoUrugay.hidden=YES;
@@ -270,8 +292,11 @@
     
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     NSLog(@"%@",countryCode);
-    if ([countryCode isEqualToString:@"ES"]) {
+//    if ([countryCode isEqualToString:@"ES"]) {
+    if ([language isEqualToString:@"es-ES"]) {
+
         textoEspana.hidden=NO;
         llegarGroup.hidden=YES;
      
@@ -362,5 +387,25 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    CLLocationCoordinate2D PronoKal;
+    PronoKal.latitude = 38.7379349;
+    PronoKal.longitude = -9.1458315;
+    MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
+    annotationPoint.coordinate = PronoKal;
+    annotationPoint.title = @"PronoKal";
+    annotationPoint.subtitle = @"";
+    [Localizacion addAnnotation:annotationPoint];
+
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(PronoKal, 680, 680);
+    MKCoordinateRegion adjustedRegion = [Localizacion regionThatFits:viewRegion];
+    [Localizacion setRegion:adjustedRegion animated:YES];
+    
+}
+
+@synthesize Localizacion;
 
 @end

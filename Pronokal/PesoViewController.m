@@ -98,12 +98,25 @@
     
     if (totalimc<12 || totalimc>48 ){
         NSLog(@"Fuera de rango");
+        NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+        NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+        
+        if ([countryCode isEqualToString:@"PT"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Introduziu algum dado incorreto."
+                                                            message:@"Por favor, reveja os campos. Obrigado."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Cerrar"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else{
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Has introducido algún dato erroneo."
                                                         message:@"Por favor, revisa los campos. Gracias."
                                                        delegate:nil
                                               cancelButtonTitle:@"Cerrar"
                                               otherButtonTitles:nil];
         [alert show];
+        }
         
     }
     
@@ -189,7 +202,7 @@
         resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
     }
     else if ([countryCode isEqualToString:@"PT"]){
-        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
     }
     else if ([countryCode isEqualToString:@"BR"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
@@ -214,11 +227,12 @@
     
     NSString *spais=countryCode;
     NSString *lang=[spais lowercaseString];
-    
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+
     
   
     NSLog(@"%@",lang);
-    if([lang isEqualToString:@"be"]||[lang isEqualToString:@"ch"]){
+    if([lang isEqualToString:@"ch"]){
         lang=@"fr";
         NSLog(@"PAIS");
     }
@@ -227,6 +241,15 @@
         lang=@"en";
         NSLog(@"PAIS");
     }
+    if([language isEqualToString:@"nl-BE"]){
+        lang=@"nl";
+        NSLog(@"PAIS");
+    }
+    if([language isEqualToString:@"fr-BE"]){
+        lang=@"fr";
+        NSLog(@"PAIS");
+    }
+    
     
     NSString *website = [NSString stringWithFormat:@"http://www.pronokalgroupapp.com/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f&lang=%@", saltura, speso, sedad, lang];
     //urlGrafica.text=website;
@@ -354,6 +377,55 @@
         textoobesidad.hidden=NO;
     }
     
+    if (totalimc<12 || totalimc>48 ){
+        NSLog(@"Fuera de rango");
+        NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+        NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+        
+        if ([countryCode isEqualToString:@"PT"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Introduziu algum dado incorreto."
+                                                            message:@"Por favor, reveja os campos. Obrigado."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Cerrar"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else if ([countryCode isEqualToString:@"GB"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"It seems that you entered an incorrect entry."
+                                                            message:@"Please review the fields. Thank you."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Close"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else if ([countryCode isEqualToString:@"NL"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
+                                                            message:@"Lees de velden. Dank je."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Close"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else if ([countryCode isEqualToString:@"FR"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte.."
+                                                            message:@"S’il vous plaît examiner les domaines. Je vous remercie."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Fermez"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else{
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Has introducido algún dato erroneo."
+                                                            message:@"Por favor, revisa los campos. Gracias."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Cerrar"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        
+    }
+    
+    
     
     ///////////////
     
@@ -431,7 +503,7 @@
         resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
     }
     else if ([countryCode isEqualToString:@"PT"]){
-        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
     }
     else if ([countryCode isEqualToString:@"BR"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
@@ -457,14 +529,26 @@
     
     NSString *spais=countryCode;
     NSString *lang=[spais lowercaseString];
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+    
+    
+    
     NSLog(@"%@",lang);
-    if([lang isEqualToString:@"be"]||[lang isEqualToString:@"ch"]){
+    if([lang isEqualToString:@"ch"]){
         lang=@"fr";
         NSLog(@"PAIS");
     }
     
     if([lang isEqualToString:@"gb"]){
         lang=@"en";
+        NSLog(@"PAIS");
+    }
+    if([language isEqualToString:@"nl-BE"]){
+        lang=@"nl";
+        NSLog(@"PAIS");
+    }
+    if([language isEqualToString:@"fr-BE"]){
+        lang=@"fr";
         NSLog(@"PAIS");
     }
     
