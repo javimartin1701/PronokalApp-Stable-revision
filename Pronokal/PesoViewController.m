@@ -100,6 +100,7 @@
         NSLog(@"Fuera de rango");
         NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
         NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+        NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
         
         if ([countryCode isEqualToString:@"PT"]){
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Introduziu algum dado incorreto."
@@ -109,13 +110,54 @@
                                                   otherButtonTitles:nil];
             [alert show];
         }
+        else if ([countryCode isEqualToString:@"GB"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"It seems that you entered an incorrect entry."
+                                                            message:@"Please review the fields. Thank you."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Close"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else if ([countryCode isEqualToString:@"NL"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
+                                                            message:@"Lees de velden. Dank je."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Close"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        
+        else if ([language isEqualToString:@"nl-BE"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
+                                                            message:@"Lees de velden. Dank je."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Close"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else if ([language isEqualToString:@"fr-BE"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte."
+                                                            message:@"S’il vous plaît examiner les domaines. Je vous remercie."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Fermez"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else if ([countryCode isEqualToString:@"FR"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte."
+                                                            message:@"S’il vous plaît examiner les domaines. Je vous remercie."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Fermez"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
         else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Has introducido algún dato erroneo."
-                                                        message:@"Por favor, revisa los campos. Gracias."
-                                                       delegate:nil
-                                              cancelButtonTitle:@"Cerrar"
-                                              otherButtonTitles:nil];
-        [alert show];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Has introducido algún dato erroneo."
+                                                            message:@"Por favor, revisa los campos. Gracias."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Cerrar"
+                                                  otherButtonTitles:nil];
+            [alert show];
         }
         
     }
@@ -135,19 +177,19 @@
         duracionRed=8.0;
     }
     
-    if (duracionTemp>10.0 && duracionTratamiento<=15.0) {
+    if (duracionTemp>10.0 && duracionTemp<=15.0) {
         duracionRed=10.0;
     }
     
-    if (duracionTemp>15 && duracionTratamiento<=20.0) {
+    if (duracionTemp>15 && duracionTemp<=20.0) {
         duracionRed=12.0;
     }
     
-    if (duracionTemp>20.0 && duracionTratamiento<=25.0) {
+    if (duracionTemp>20.0 && duracionTemp<=25.0) {
         duracionRed=14.0;
     }
     
-    if (duracionTemp>25.0 && duracionTratamiento<=30.0) {
+    if (duracionTemp>25.0 && duracionTemp<=30.0) {
         duracionRed=16.0;
     }
     
@@ -326,6 +368,9 @@
     
     NSString *input2=altura.text;
     float saltura=[input2 floatValue];
+    if (saltura<2) {
+        saltura=saltura*100;
+    }
     
     NSString *input3=edad.text;
     float sedad=[input3 floatValue];
@@ -381,6 +426,7 @@
         NSLog(@"Fuera de rango");
         NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
         NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+        NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
         
         if ([countryCode isEqualToString:@"PT"]){
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Introduziu algum dado incorreto."
@@ -403,6 +449,23 @@
                                                             message:@"Lees de velden. Dank je."
                                                            delegate:nil
                                                   cancelButtonTitle:@"Close"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        
+        else if ([language isEqualToString:@"nl-BE"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
+                                                            message:@"Lees de velden. Dank je."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Close"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else if ([language isEqualToString:@"fr-BE"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte."
+                                                            message:@"S’il vous plaît examiner les domaines. Je vous remercie."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Fermez"
                                                   otherButtonTitles:nil];
             [alert show];
         }
@@ -441,19 +504,19 @@
         duracionRed=8.0;
     }
     
-    if (duracionTemp>10.0 && duracionTratamiento<=15.0) {
+    if (duracionTemp>10.0 && duracionTemp<=15.0) {
         duracionRed=10.0;
     }
     
-    if (duracionTemp>15 && duracionTratamiento<=20.0) {
+    if (duracionTemp>15 && duracionTemp<=20.0) {
         duracionRed=12.0;
     }
     
-    if (duracionTemp>20.0 && duracionTratamiento<=25.0) {
+    if (duracionTemp>20.0 && duracionTemp<=25.0) {
         duracionRed=14.0;
     }
     
-    if (duracionTemp>25.0 && duracionTratamiento<=30.0) {
+    if (duracionTemp>25.0 && duracionTemp<=30.0) {
         duracionRed=16.0;
     }
     
