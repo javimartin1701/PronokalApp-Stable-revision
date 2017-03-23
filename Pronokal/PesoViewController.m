@@ -15,6 +15,7 @@
 @implementation PesoViewController
 
 -(IBAction)vetGrafica:(id)sender{
+    botonContactarFinal.hidden=NO;
     grafica.hidden=NO;
     pantallagrafica.hidden=NO;
     redirigir.hidden=NO;
@@ -30,6 +31,7 @@
 
 -(IBAction)calcular:(id)sender{
     prepantalla2.hidden=YES;
+    botonContactar.hidden=YES;
     NSLog(@"CALCULA PESO IDEAL....TEST");
     prepantallaresultado.hidden=NO;
     
@@ -65,6 +67,7 @@
     float duracionRed=0.0;
     float duracionTemp;
     
+    
     /////////////
     totalimc=speso/((saltura/100)*(saltura/100));
     resultadotimc=[NSString stringWithFormat:@"%.2f",totalimc];
@@ -79,6 +82,8 @@
     if (totalimc<24.99 && totalimc>18.51) {
         flechanormal.hidden=NO;
         textonormal.hidden=NO;
+        botonContactar.hidden=NO;
+        botonCalcular.hidden=YES;
     }
     
     if (totalimc<26.99 && totalimc>25) {
@@ -160,6 +165,9 @@
             [alert show];
         }
         
+       
+      
+        
     }
     
     
@@ -204,8 +212,19 @@
     if (total3<0){
         sinperder.hidden=NO;
     }
+    
+    
+    
+    
+    
+    
+    
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    
+    NSString *spais=countryCode;
+    NSString *lang=[spais lowercaseString];
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     NSLog(@"%@",countryCode);
     resultadot=[NSString stringWithFormat:@"%.1f",total];
     resultadot2=[NSString stringWithFormat:@"%.1f",total2];
@@ -230,10 +249,19 @@
 //    else if ([countryCode isEqualToString:@"BR"]){
 //        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
 //    }
-
-    if ([countryCode isEqualToString:@"NL"]){
+    if([language isEqualToString:@"nl-BE"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
     }
+    else if([language isEqualToString:@"nl-FR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if([language isEqualToString:@"nl-NL"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+    }
+
+//    if ([countryCode isEqualToString:@"NL"]){
+//        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+//    }
     else if ([countryCode isEqualToString:@"ES"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
     }
@@ -247,7 +275,7 @@
         resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
     }
     else if ([countryCode isEqualToString:@"BR"]){
-        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+        resultadot4 = [resultadot4 stringByAppendingString:@" semanas"];
     }
     else if ([countryCode isEqualToString:@"BE"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
@@ -267,9 +295,9 @@
     
    
     
-    NSString *spais=countryCode;
-    NSString *lang=[spais lowercaseString];
-    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+//    NSString *spais=countryCode;
+//    NSString *lang=[spais lowercaseString];
+//    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
 
     
   
@@ -358,6 +386,7 @@
 -(IBAction)calcularHombre:(id)sender{
     NSLog(@"CalculoHombre");
     prepantallaresultado.hidden=NO;
+    botonContactar.hidden=YES;
     
     
     ////Calculadora IMC
@@ -405,6 +434,8 @@
     if (totalimc<24.99 && totalimc>18.51) {
         flechanormal.hidden=NO;
         textonormal.hidden=NO;
+        botonContactar.hidden=NO;
+        botonCalcular.hidden=YES;
     }
     
     if (totalimc<26.99 && totalimc>25) {
@@ -539,6 +570,11 @@
     
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    
+    NSString *spais=countryCode;
+    NSString *lang=[spais lowercaseString];
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+    
     NSLog(@"%@",countryCode);
     
     
@@ -553,9 +589,16 @@
 //    else if ([countryCode isEqualToString:@"EN"]){
 //        resultadot4 = [resultadot4 stringByAppendingString:@" Weekens"];
 //    }
-    if ([countryCode isEqualToString:@"NL"]){
+    if([language isEqualToString:@"nl-BE"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
     }
+    else if([language isEqualToString:@"nl-FR"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
+    }
+    else if([language isEqualToString:@"nl-NL"]){
+        resultadot4 = [resultadot4 stringByAppendingString:@" Weken"];
+    }
+
     else if ([countryCode isEqualToString:@"ES"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
     }
@@ -569,7 +612,7 @@
         resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
     }
     else if ([countryCode isEqualToString:@"BR"]){
-        resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+        resultadot4 = [resultadot4 stringByAppendingString:@" semanas"];
     }
     else if ([countryCode isEqualToString:@"BE"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];
@@ -590,9 +633,9 @@
     
     
     
-    NSString *spais=countryCode;
-    NSString *lang=[spais lowercaseString];
-    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+//    NSString *spais=countryCode;
+//    NSString *lang=[spais lowercaseString];
+//    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     
     
     
@@ -677,7 +720,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-  
+    botonContactarFinal.hidden=YES;
     prepantallaresultado.hidden=YES;
     pantallaresultado.hidden=YES;
     grafica.hidden=YES;
@@ -704,6 +747,9 @@
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(ocultaTeclado:)];
     [tapGesture setNumberOfTouchesRequired:1];
     [[self view] addGestureRecognizer:tapGesture];
+    
+    
+
     
     
    }

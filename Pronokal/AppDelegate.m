@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "TestFairy.h"
+#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
+
 
 @interface AppDelegate ()
 
@@ -16,6 +19,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [TestFairy begin:@"2ef2e998c8ecfb9ff533a64ca750db3cfe448a4b"];
     
     // Override point for customization after application launch.
     

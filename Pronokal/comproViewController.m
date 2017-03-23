@@ -17,11 +17,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSString *website = @"http://comprometidosporunpesosaludable.com";
-    NSURL *url = [NSURL URLWithString:website];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
+    NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+    NSLog(@"%@",countryCode);
+    if ([language isEqualToString:@"es-AR"]) {
+         NSLog(@"Argentina");
+        NSString *website = @"http://www.compromisopronokal.com.ar";
+        NSURL *url = [NSURL URLWithString:website];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [compro loadRequest:request];
+
+    }
+    else{
+        NSLog(@"España");
+        NSString *website = @"http://comprometidosporunpesosaludable.com";
+        NSURL *url = [NSURL URLWithString:website];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [compro loadRequest:request];
+
+    }
     
-    [compro loadRequest:request];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

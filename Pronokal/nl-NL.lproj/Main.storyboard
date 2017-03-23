@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="O5I-nN-gol">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="O5I-nN-gol">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1880,7 +1880,7 @@ versterken.</string>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <string key="text">Je BMI geeft aan dat je aan obesitas lijdt, waardoor je meer kans loopt op ziektes zoals diabetes type 2, hart- en vaatziekten, Gewrichtsklachten... Je zou de nodige stappen moeten ondernemen om af te vallen en het risico op comorbiditeit te verlagen. Neem contact met ons op en laat je helpen.</string>
+                                                        <string key="text">Je BMI geeft aan dat je aan obesitas lijdt, waardoor je meer kans loopt op ziektes zoals diabetes type 2, hart- en vaatziekten, Gewrichtsklachten... Je zou de nodige stappen moeten ondernemen om af te vallen en het risico op co-morbiditeit te verlagen. Neem contact met ons op en laat je helpen.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1904,6 +1904,20 @@ versterken.</string>
                                                     <action selector="prePantallaResultado:" destination="frg-ud-eCJ" eventType="touchUpInside" id="tgL-Y6-7Jx"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQt-VB-obv">
+                                                <rect key="frame" x="66" y="455" width="191" height="30"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.47058823529999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="VQt-VB-obv" secondAttribute="height" multiplier="191:30" id="fYS-CH-YeL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <state key="normal" title="NEEM CONTACT OP MET TEAM">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="1oK-Nv-yd0" kind="show" id="eqf-oA-gxj"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -1924,6 +1938,8 @@ versterken.</string>
                                             <constraint firstAttribute="width" secondItem="2WQ-VC-DDU" secondAttribute="height" multiplier="320:527" id="d7J-FW-tJ3"/>
                                             <constraint firstItem="CjL-Un-Fwg" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="251" id="dPm-ex-ynU"/>
                                             <constraint firstItem="dWA-zt-cjA" firstAttribute="leading" secondItem="2WQ-VC-DDU" secondAttribute="leading" constant="43" id="euR-XO-n50"/>
+                                            <constraint firstItem="VQt-VB-obv" firstAttribute="centerX" secondItem="2WQ-VC-DDU" secondAttribute="centerX" id="fSp-le-PPX"/>
+                                            <constraint firstItem="VQt-VB-obv" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="455" id="fYo-fA-dOx"/>
                                             <constraint firstItem="fPv-5d-H3n" firstAttribute="leading" secondItem="2WQ-VC-DDU" secondAttribute="leading" constant="31" id="ffi-KU-8c1"/>
                                             <constraint firstItem="Xph-ZP-svj" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="455" id="ges-hi-lch"/>
                                             <constraint firstItem="MC9-47-NzY" firstAttribute="leading" secondItem="RsI-Wr-GTh" secondAttribute="trailing" constant="52" id="kiV-Yw-sJV"/>
@@ -1977,7 +1993,7 @@ versterken.</string>
                                                 <rect key="frame" x="0.0" y="223" width="320" height="260"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-Li-BN8">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Het resultaat berekening geeft aan dat je niet nodig hebt om gewicht te verliezen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-Li-BN8">
                                                         <rect key="frame" x="8" y="41" width="301" height="54"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2016,21 +2032,9 @@ versterken.</string>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </webView>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-8I-lmK">
-                                                        <rect key="frame" x="110" y="1200" width="100" height="50"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="XNa-8I-lmK" secondAttribute="height" multiplier="2:1" id="65J-oa-yLK"/>
-                                                            <constraint firstAttribute="width" constant="100" id="JVi-0j-OER"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <connections>
-                                                            <segue destination="1oK-Nv-yd0" kind="show" id="kRA-qC-B1P"/>
-                                                        </connections>
-                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstItem="XNa-8I-lmK" firstAttribute="centerX" secondItem="HE0-oq-2v1" secondAttribute="centerX" id="Gp8-lj-iSo"/>
                                                     <constraint firstItem="8oF-LU-HeZ" firstAttribute="top" secondItem="HE0-oq-2v1" secondAttribute="top" constant="142" id="bYv-yz-jl6"/>
                                                     <constraint firstItem="8oF-LU-HeZ" firstAttribute="centerX" secondItem="HE0-oq-2v1" secondAttribute="centerX" id="vQY-UG-naL"/>
                                                 </constraints>
@@ -2059,6 +2063,17 @@ versterken.</string>
                                             <segue destination="1oK-Nv-yd0" kind="show" id="s2Y-HI-cLn"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-8I-lmK">
+                                        <rect key="frame" x="110" y="234" width="100" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="6ek-y0-089"/>
+                                            <constraint firstAttribute="width" secondItem="XNa-8I-lmK" secondAttribute="height" multiplier="2:1" id="bPT-3r-e7Q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <connections>
+                                            <segue destination="1oK-Nv-yd0" kind="show" id="kRA-qC-B1P"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Ler-V3-8na" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" constant="40" id="0mC-nY-DHE"/>
@@ -2067,6 +2082,7 @@ versterken.</string>
                                     <constraint firstItem="Ztz-Fs-nYg" firstAttribute="top" secondItem="sUp-JS-Skg" secondAttribute="top" id="3d4-QR-zIe"/>
                                     <constraint firstItem="KpZ-y0-ba5" firstAttribute="top" secondItem="sUp-JS-Skg" secondAttribute="top" constant="402" id="7cX-GN-Luo"/>
                                     <constraint firstItem="2WQ-VC-DDU" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" id="93P-YZ-EVY"/>
+                                    <constraint firstItem="XNa-8I-lmK" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" id="BCO-L1-Jut"/>
                                     <constraint firstItem="Ler-V3-8na" firstAttribute="top" secondItem="zNR-xn-Vp3" secondAttribute="bottom" constant="15" id="CHb-a7-VE3"/>
                                     <constraint firstItem="zNR-xn-Vp3" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" constant="40" id="NJU-yg-l6R"/>
                                     <constraint firstItem="0eN-GO-KFt" firstAttribute="top" secondItem="sUp-JS-Skg" secondAttribute="top" constant="255" id="Nnf-3F-9c8"/>
@@ -2075,6 +2091,7 @@ versterken.</string>
                                     <constraint firstItem="Ztz-Fs-nYg" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" id="fZ1-KX-dyW"/>
                                     <constraint firstItem="zNR-xn-Vp3" firstAttribute="top" secondItem="0eN-GO-KFt" secondAttribute="bottom" constant="18" id="qv0-zz-257"/>
                                     <constraint firstItem="2WQ-VC-DDU" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" id="tOL-oq-IaM"/>
+                                    <constraint firstItem="XNa-8I-lmK" firstAttribute="top" secondItem="sUp-JS-Skg" secondAttribute="top" constant="1200" id="uhj-Uu-EmV"/>
                                     <constraint firstItem="2WQ-VC-DDU" firstAttribute="top" secondItem="sUp-JS-Skg" secondAttribute="top" constant="-4" id="zb9-Tu-ks1"/>
                                 </constraints>
                             </scrollView>
@@ -2089,6 +2106,9 @@ versterken.</string>
                     </view>
                     <connections>
                         <outlet property="altura" destination="zNR-xn-Vp3" id="5C1-Ic-r3y"/>
+                        <outlet property="botonCalcular" destination="Xph-ZP-svj" id="YBo-2V-gqV"/>
+                        <outlet property="botonContactar" destination="VQt-VB-obv" id="iTV-Ch-0Jk"/>
+                        <outlet property="botonContactarFinal" destination="XNa-8I-lmK" id="nub-dW-MxK"/>
                         <outlet property="duracion" destination="8oF-LU-HeZ" id="Fuw-nB-bbC"/>
                         <outlet property="edad" destination="Ler-V3-8na" id="c4Z-Pj-5YZ"/>
                         <outlet property="flechabajopeso" destination="dWA-zt-cjA" id="IXJ-FT-NAY"/>
@@ -2755,7 +2775,7 @@ versterken.</string>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD8-OX-G3R">
                                         <rect key="frame" x="137" y="443" width="46" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="46" id="LmM-LO-lH7"/>
+                                            <constraint firstAttribute="width" constant="160" id="LmM-LO-lH7"/>
                                             <constraint firstAttribute="width" secondItem="KD8-OX-G3R" secondAttribute="height" multiplier="23:15" id="SzA-og-iI6"/>
                                         </constraints>
                                         <connections>
@@ -2767,7 +2787,7 @@ versterken.</string>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="sBJ-YC-dZv" secondAttribute="height" multiplier="8:3" id="dfw-CM-NZn"/>
-                                            <constraint firstAttribute="width" constant="80" id="onZ-o8-I6x"/>
+                                            <constraint firstAttribute="width" constant="160" id="onZ-o8-I6x"/>
                                         </constraints>
                                         <connections>
                                             <segue destination="CNz-ox-b8J" kind="show" id="rac-cS-TaQ"/>
@@ -2776,8 +2796,8 @@ versterken.</string>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Imw-i7-kWc" firstAttribute="top" secondItem="MY1-48-HL3" secondAttribute="top" id="1dC-1S-wrr"/>
-                                    <constraint firstItem="KD8-OX-G3R" firstAttribute="top" secondItem="MY1-48-HL3" secondAttribute="top" constant="630" id="8eR-jY-ifI"/>
-                                    <constraint firstItem="sBJ-YC-dZv" firstAttribute="top" secondItem="MY1-48-HL3" secondAttribute="top" constant="680" id="OTr-80-MFv"/>
+                                    <constraint firstItem="KD8-OX-G3R" firstAttribute="top" secondItem="MY1-48-HL3" secondAttribute="top" constant="633" id="8eR-jY-ifI"/>
+                                    <constraint firstItem="sBJ-YC-dZv" firstAttribute="top" secondItem="MY1-48-HL3" secondAttribute="top" constant="683" id="OTr-80-MFv"/>
                                     <constraint firstItem="bBm-Hl-4Ea" firstAttribute="top" secondItem="MY1-48-HL3" secondAttribute="top" constant="82" id="Xml-UI-fLC"/>
                                     <constraint firstItem="sBJ-YC-dZv" firstAttribute="centerX" secondItem="MY1-48-HL3" secondAttribute="centerX" id="Zd5-99-qZ3"/>
                                     <constraint firstItem="bBm-Hl-4Ea" firstAttribute="centerX" secondItem="MY1-48-HL3" secondAttribute="centerX" constant="-40" id="cN5-UD-Gyv"/>
@@ -3267,7 +3287,7 @@ CQ
                                         <rect key="frame" x="213" y="376" width="78" height="30"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="78" id="Uaf-bw-G8H"/>
+                                            <constraint firstAttribute="width" constant="95" id="Uaf-bw-G8H"/>
                                             <constraint firstAttribute="width" secondItem="DOF-1l-gen" secondAttribute="height" multiplier="13:5" id="XRG-md-Ih5"/>
                                         </constraints>
                                         <connections>
@@ -3446,7 +3466,7 @@ CQ
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frg-lO-UOg">
                                         <rect key="frame" x="218" y="373" width="74" height="37"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="74" id="Rgk-6p-1X0"/>
+                                            <constraint firstAttribute="width" constant="95" id="Rgk-6p-1X0"/>
                                             <constraint firstAttribute="width" secondItem="frg-lO-UOg" secondAttribute="height" multiplier="2:1" id="rra-lM-ktB"/>
                                         </constraints>
                                         <connections>
@@ -3699,9 +3719,12 @@ CQ
                                             <constraint firstAttribute="width" secondItem="k8I-Wl-pYV" secondAttribute="height" multiplier="320:717" id="PK6-QW-Fru"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OS-GC-knZ">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OS-GC-knZ">
                                         <rect key="frame" x="99" y="78" width="58" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="apk-it-h6Y"/>
+                                            <constraint firstAttribute="height" constant="40" id="wbV-Gr-lnZ"/>
+                                        </constraints>
                                         <connections>
                                             <segue destination="V8R-a3-HFF" kind="show" animates="NO" id="N6i-Yv-VVr"/>
                                         </connections>
@@ -3709,8 +3732,8 @@ CQ
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVo-Qq-Gcw" userLabel="ButtonCoaching">
                                         <rect key="frame" x="99" y="413" width="123" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="46" id="4WQ-IY-vlb"/>
-                                            <constraint firstAttribute="width" secondItem="FVo-Qq-Gcw" secondAttribute="height" multiplier="23:15" id="Uwg-rd-W32"/>
+                                            <constraint firstAttribute="width" constant="140" id="4WQ-IY-vlb"/>
+                                            <constraint firstAttribute="height" constant="30" id="Pys-fw-Y2P"/>
                                         </constraints>
                                         <connections>
                                             <segue destination="QzO-PJ-1Vh" kind="show" id="Bun-oo-hug"/>
@@ -3719,8 +3742,10 @@ CQ
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="FVo-Qq-Gcw" firstAttribute="top" secondItem="Lp4-Mv-YyN" secondAttribute="top" constant="660" id="LsH-OO-wtD"/>
+                                    <constraint firstItem="7OS-GC-knZ" firstAttribute="top" secondItem="Lp4-Mv-YyN" secondAttribute="top" constant="78" id="OBa-ji-Rrx"/>
                                     <constraint firstItem="k8I-Wl-pYV" firstAttribute="top" secondItem="Lp4-Mv-YyN" secondAttribute="top" id="dTd-qk-nMJ"/>
                                     <constraint firstItem="k8I-Wl-pYV" firstAttribute="centerX" secondItem="Lp4-Mv-YyN" secondAttribute="centerX" id="gD2-Cs-GWv"/>
+                                    <constraint firstItem="7OS-GC-knZ" firstAttribute="leading" secondItem="Lp4-Mv-YyN" secondAttribute="leading" constant="99" id="mfv-6p-uIx"/>
                                     <constraint firstItem="FVo-Qq-Gcw" firstAttribute="centerX" secondItem="Lp4-Mv-YyN" secondAttribute="centerX" id="zgr-2T-Cy7"/>
                                 </constraints>
                             </scrollView>
@@ -3839,21 +3864,21 @@ CQ
         <image name="tuto3_v4_r2_nl.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aw2-Fr-I3T"/>
-        <segue reference="5cy-8V-7W7"/>
-        <segue reference="WCL-6a-cs6"/>
         <segue reference="jKD-kl-Vvs"/>
         <segue reference="OXP-8a-Gcg"/>
-        <segue reference="had-le-EPl"/>
-        <segue reference="s2Y-HI-cLn"/>
-        <segue reference="djE-OB-S6i"/>
-        <segue reference="CfJ-tn-f0G"/>
-        <segue reference="w2u-1g-DF4"/>
-        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="WCL-6a-cs6"/>
+        <segue reference="5cy-8V-7W7"/>
         <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="I9p-9N-ZWK"/>
-        <segue reference="f7U-6P-83y"/>
+        <segue reference="rlm-MO-jpp"/>
+        <segue reference="rac-cS-TaQ"/>
+        <segue reference="gPM-aR-IOE"/>
         <segue reference="WLM-zQ-shq"/>
-        <segue reference="xhY-sy-Kil"/>
+        <segue reference="S3p-zB-FPh"/>
+        <segue reference="azG-x2-9hX"/>
+        <segue reference="eNI-yk-SAr"/>
+        <segue reference="N6i-Yv-VVr"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="Bun-oo-hug"/>
+        <segue reference="I9p-9N-ZWK"/>
     </inferredMetricsTieBreakers>
 </document>

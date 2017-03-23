@@ -69,6 +69,8 @@
     if (totalimc<24.99 && totalimc>18.51) {
         flechanormal.hidden=NO;
         textonormal.hidden=NO;
+        
+
     }
     
     if (totalimc<26.99 && totalimc>25) {
@@ -158,7 +160,7 @@
         resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
     }
     else if ([countryCode isEqualToString:@"BR"]){
-        resultadot4 = [resultadot4 stringByAppendingString:@" Semmanas"];
+        resultadot4 = [resultadot4 stringByAppendingString:@" semmanas"];
     }
     else if ([countryCode isEqualToString:@"BE"]){
         resultadot4 = [resultadot4 stringByAppendingString:@" Semaines"];

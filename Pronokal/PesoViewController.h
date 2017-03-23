@@ -18,6 +18,9 @@
     IBOutlet UIButton *redirigir;
     IBOutlet UIButton *prepantalla;
     IBOutlet UIButton *prepantalla2;
+    IBOutlet UIButton *botonCalcular;
+    IBOutlet UIButton *botonContactar;
+    IBOutlet UIButton *botonContactarFinal;
     
     
     IBOutlet UIView *sinperder;

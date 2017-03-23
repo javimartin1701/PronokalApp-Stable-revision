@@ -32,6 +32,14 @@
 		04013C791D36A25700344073 /* tuto1_v4_1_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C5F1D36A25700344073 /* tuto1_v4_1_br.jpg */; };
 		04013C851D37AB9B00344073 /* fondoGrafica2_v4_1_r_br.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C841D37AB9B00344073 /* fondoGrafica2_v4_1_r_br.jpg */; };
 		04013C891D37AEFA00344073 /* fondoGrafica2_v4_1_r_fr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04013C881D37AEFA00344073 /* fondoGrafica2_v4_1_r_fr.jpg */; };
+		0410D5341E784C32003BDE2F /* TestFairySDK-1.8.4 in Resources */ = {isa = PBXBuildFile; fileRef = 0410D5331E784C32003BDE2F /* TestFairySDK-1.8.4 */; };
+		0410D5361E784D67003BDE2F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0410D5351E784D67003BDE2F /* CoreMedia.framework */; };
+		0410D5381E784D77003BDE2F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0410D5371E784D77003BDE2F /* CoreMotion.framework */; };
+		0410D5391E784D89003BDE2F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E8A6D1BEB86C50019B4B5 /* AVFoundation.framework */; };
+		0410D53B1E784D96003BDE2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0410D53A1E784D96003BDE2F /* SystemConfiguration.framework */; };
+		0410D53D1E784DA6003BDE2F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0410D53C1E784DA6003BDE2F /* OpenGLES.framework */; };
+		0410D5411E784E62003BDE2F /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0410D53E1E784E62003BDE2F /* libTestFairy.a */; };
+		0410D5421E784E62003BDE2F /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0410D5401E784E62003BDE2F /* upload-dsym.sh */; };
 		041A20221D74333F009859A5 /* testimonios1b_rev2_v4_1_pt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 041A20211D74333F009859A5 /* testimonios1b_rev2_v4_1_pt.jpg */; };
 		041A20241D75CAA5009859A5 /* fondoGrafica2_v4_1_r_en.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 041A20231D75CAA5009859A5 /* fondoGrafica2_v4_1_r_en.jpg */; };
 		042F68FE1D2E699C004980E7 /* tuto1_v4_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042F69001D2E699C004980E7 /* tuto1_v4_1.jpg */; };
@@ -76,6 +84,8 @@
 		0483333D1C7E16E3008A0645 /* texto-contacto-ar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0483333C1C7E16E3008A0645 /* texto-contacto-ar.png */; };
 		0483333F1C7E1973008A0645 /* texto-contacto-rd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0483333E1C7E1973008A0645 /* texto-contacto-rd.png */; };
 		048333411C7E1B17008A0645 /* texto-contacto-mx.png in Resources */ = {isa = PBXBuildFile; fileRef = 048333401C7E1B17008A0645 /* texto-contacto-mx.png */; };
+		0488BC8C1E6838C900B6D22D /* resPesIda2l_rev_fr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0488BC8B1E6838C900B6D22D /* resPesIda2l_rev_fr.jpg */; };
+		0488BC8E1E683B8A00B6D22D /* paso3_rev_v4_1_fr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0488BC8D1E683B8A00B6D22D /* paso3_rev_v4_1_fr.jpg */; };
 		048E3C2D1D3E2B2600D6CD39 /* actividad1a_rev2_v4_1_nl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048E3C131D3E2B2600D6CD39 /* actividad1a_rev2_v4_1_nl.jpg */; };
 		048E3C301D3E2B2600D6CD39 /* coaching-a2_v4_r_nl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048E3C161D3E2B2600D6CD39 /* coaching-a2_v4_r_nl.jpg */; };
 		048E3C311D3E2B2600D6CD39 /* coaching1_v4_1_nl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048E3C171D3E2B2600D6CD39 /* coaching1_v4_1_nl.jpg */; };
@@ -418,6 +428,14 @@
 		04013C5F1D36A25700344073 /* tuto1_v4_1_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuto1_v4_1_br.jpg; sourceTree = "<group>"; };
 		04013C841D37AB9B00344073 /* fondoGrafica2_v4_1_r_br.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoGrafica2_v4_1_r_br.jpg; sourceTree = "<group>"; };
 		04013C881D37AEFA00344073 /* fondoGrafica2_v4_1_r_fr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoGrafica2_v4_1_r_fr.jpg; sourceTree = "<group>"; };
+		0410D5331E784C32003BDE2F /* TestFairySDK-1.8.4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TestFairySDK-1.8.4"; sourceTree = "<group>"; };
+		0410D5351E784D67003BDE2F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0410D5371E784D77003BDE2F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0410D53A1E784D96003BDE2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0410D53C1E784DA6003BDE2F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0410D53E1E784E62003BDE2F /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
+		0410D53F1E784E62003BDE2F /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		0410D5401E784E62003BDE2F /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
 		041A20211D74333F009859A5 /* testimonios1b_rev2_v4_1_pt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonios1b_rev2_v4_1_pt.jpg; sourceTree = "<group>"; };
 		041A20231D75CAA5009859A5 /* fondoGrafica2_v4_1_r_en.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoGrafica2_v4_1_r_en.jpg; sourceTree = "<group>"; };
 		042F68FD1D2E6974004980E7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -470,6 +488,8 @@
 		0483333C1C7E16E3008A0645 /* texto-contacto-ar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "texto-contacto-ar.png"; sourceTree = "<group>"; };
 		0483333E1C7E1973008A0645 /* texto-contacto-rd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "texto-contacto-rd.png"; sourceTree = "<group>"; };
 		048333401C7E1B17008A0645 /* texto-contacto-mx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "texto-contacto-mx.png"; sourceTree = "<group>"; };
+		0488BC8B1E6838C900B6D22D /* resPesIda2l_rev_fr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resPesIda2l_rev_fr.jpg; sourceTree = "<group>"; };
+		0488BC8D1E683B8A00B6D22D /* paso3_rev_v4_1_fr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso3_rev_v4_1_fr.jpg; sourceTree = "<group>"; };
 		048E3C131D3E2B2600D6CD39 /* actividad1a_rev2_v4_1_nl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actividad1a_rev2_v4_1_nl.jpg; sourceTree = "<group>"; };
 		048E3C161D3E2B2600D6CD39 /* coaching-a2_v4_r_nl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coaching-a2_v4_r_nl.jpg"; sourceTree = "<group>"; };
 		048E3C171D3E2B2600D6CD39 /* coaching1_v4_1_nl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coaching1_v4_1_nl.jpg; sourceTree = "<group>"; };
@@ -813,6 +833,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0410D53D1E784DA6003BDE2F /* OpenGLES.framework in Frameworks */,
+				0410D5411E784E62003BDE2F /* libTestFairy.a in Frameworks */,
+				0410D53B1E784D96003BDE2F /* SystemConfiguration.framework in Frameworks */,
+				0410D5391E784D89003BDE2F /* AVFoundation.framework in Frameworks */,
+				0410D5381E784D77003BDE2F /* CoreMotion.framework in Frameworks */,
+				0410D5361E784D67003BDE2F /* CoreMedia.framework in Frameworks */,
 				04917AAD1E24EBD900A66DC6 /* MapKit.framework in Frameworks */,
 				8EE1F2731BD40977007A3D73 /* MediaPlayer.framework in Frameworks */,
 				8EC69C161BC683E800B7149E /* MessageUI.framework in Frameworks */,
@@ -907,6 +933,8 @@
 		042F69031D2E69C5004980E7 /* ImagenesFR */ = {
 			isa = PBXGroup;
 			children = (
+				0488BC8D1E683B8A00B6D22D /* paso3_rev_v4_1_fr.jpg */,
+				0488BC8B1E6838C900B6D22D /* resPesIda2l_rev_fr.jpg */,
 				04BC8E061D48D43900AD9DF8 /* testimonios1b_rev2_v41_fr.jpg */,
 				04D50DBE1D33932E0018A5BA /* actividad1a_rev2_v4_1.jpg */,
 				04D50DB61D33913D0018A5BA /* actividad2a_rev_v4_2.jpg */,
@@ -942,6 +970,10 @@
 		04917AAB1E24EBD800A66DC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0410D53C1E784DA6003BDE2F /* OpenGLES.framework */,
+				0410D53A1E784D96003BDE2F /* SystemConfiguration.framework */,
+				0410D5371E784D77003BDE2F /* CoreMotion.framework */,
+				0410D5351E784D67003BDE2F /* CoreMedia.framework */,
 				04917AAC1E24EBD900A66DC6 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -1019,6 +1051,10 @@
 		8EC69B951BC56B6E00B7149E = {
 			isa = PBXGroup;
 			children = (
+				0410D53E1E784E62003BDE2F /* libTestFairy.a */,
+				0410D53F1E784E62003BDE2F /* TestFairy.h */,
+				0410D5401E784E62003BDE2F /* upload-dsym.sh */,
+				0410D5331E784C32003BDE2F /* TestFairySDK-1.8.4 */,
 				8E2E8A6D1BEB86C50019B4B5 /* AVFoundation.framework */,
 				8E2E8A6E1BEB86C50019B4B5 /* AVKit.framework */,
 				8EE1F2721BD40977007A3D73 /* MediaPlayer.framework */,
@@ -1575,6 +1611,7 @@
 				0473AFB71D33F4D600F700D6 /* paso1_rev_v4_1_r_en.jpg in Resources */,
 				8ED9F41D1BFE4D670076FA3F /* paso4_rev_v4.jpg in Resources */,
 				0473AFCB1D33FC9D00F700D6 /* home-pre_rev_v4_en.jpg in Resources */,
+				0488BC8C1E6838C900B6D22D /* resPesIda2l_rev_fr.jpg in Resources */,
 				04AB01B41D3D257B00FEA0FF /* tuto2_v4_r_br.jpg in Resources */,
 				8EB7120C1BE91A6B0045EDE5 /* boton_club2.jpg in Resources */,
 				04013C3B1D36819B00344073 /* PNK-2a_rev2_v4_1_1_pt.jpg in Resources */,
@@ -1630,6 +1667,7 @@
 				04013C311D36819B00344073 /* coaching1_v4_1_pt.jpg in Resources */,
 				042F69191D2E6DDB004980E7 /* tuto2_v4_r.jpg in Resources */,
 				04CAA3861D410B18005A8CAE /* texto-contacto-uk.jpg in Resources */,
+				0410D5421E784E62003BDE2F /* upload-dsym.sh in Resources */,
 				8EFB2C531BFF495E00E54AC8 /* coaching1_v4.jpg in Resources */,
 				048E3C6E1D3E7AE100D6CD39 /* fondoGrafica2_v4_1_r_pt.jpg in Resources */,
 				8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */,
@@ -1677,6 +1715,7 @@
 				04AB01AD1D3D257B00FEA0FF /* nutricion-1a_rev2_v4_br.jpg in Resources */,
 				0473AFC21D33F4D600F700D6 /* tuto2_v4_r_en.jpg in Resources */,
 				0473AFBE1D33F4D600F700D6 /* resultado_test_v4_r2_en.jpg in Resources */,
+				0410D5341E784C32003BDE2F /* TestFairySDK-1.8.4 in Resources */,
 				04013C661D36A25700344073 /* coaching1_v4_1_br.jpg in Resources */,
 				04013C6F1D36A25700344073 /* paso2_rev_v4_1bis_r_br.jpg in Resources */,
 				8E0515771BE3C72F00E26054 /* testtext2.jpg in Resources */,
@@ -1795,6 +1834,7 @@
 				8ED9F4211BFE501D0076FA3F /* PNK-2a_rev2_v4.jpg in Resources */,
 				048E3C761D3E7AE100D6CD39 /* testimonios1b_rev2_v4_pt.jpg in Resources */,
 				04013C0E1D36579600344073 /* paso3_rev_v4_1_en.jpg in Resources */,
+				0488BC8E1E683B8A00B6D22D /* paso3_rev_v4_1_fr.jpg in Resources */,
 				04D50DDF1D3397DF0018A5BA /* paso1_rev_v4_1_r.jpg in Resources */,
 				04D50D721D2FA73E0018A5BA /* resultadoimc_r.jpg in Resources */,
 				8E90C2DD1BE7C07300C354F5 /* paso1.jpg in Resources */,
@@ -2451,6 +2491,10 @@
 				INFOPLIST_FILE = Pronokal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.pronokal.appes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2466,6 +2510,10 @@
 				INFOPLIST_FILE = Pronokal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.pronokal.appes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

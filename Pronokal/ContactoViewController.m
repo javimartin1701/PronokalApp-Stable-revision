@@ -87,7 +87,10 @@
         NSLog(@"ESPAÑA");
     }
     else if ([countryCode isEqualToString:@"AR"]){
+       
+        
         [self openMapToLatitude:-34.5963882	 longitude:-58.3842504];
+        
         NSLog(@"ARGENTINA");
     }
     else if ([countryCode isEqualToString:@"UY"]){
