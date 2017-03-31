@@ -75,6 +75,19 @@
         [movieController.moviePlayer play];
     }
     
+    else if([language isEqualToString:@"fr-LU"]){
+        NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/controlmedico_fr.mp4"];  // sample url
+        MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        CGAffineTransform landscapeTransform;
+        landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+        landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+        [movieController.moviePlayer.view setTransform: landscapeTransform];
+        
+        [self presentMoviePlayerViewControllerAnimated:movieController];
+        [movieController.moviePlayer prepareToPlay];
+        [movieController.moviePlayer play];
+    }
+    
     
     else if([countryCode isEqualToString:@"BR"]){
         NSURL *movieURL = [NSURL URLWithString:@"http://www.pronokalgroupapp.com/pnkv/controlmedico_br.mp4"];  // sample url

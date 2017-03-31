@@ -108,6 +108,10 @@
         NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
         
         if ([countryCode isEqualToString:@"PT"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla2.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Introduziu algum dado incorreto."
                                                             message:@"Por favor, reveja os campos. Obrigado."
                                                            delegate:nil
@@ -116,6 +120,10 @@
             [alert show];
         }
         else if ([countryCode isEqualToString:@"GB"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla2.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"It seems that you entered an incorrect entry."
                                                             message:@"Please review the fields. Thank you."
                                                            delegate:nil
@@ -124,6 +132,10 @@
             [alert show];
         }
         else if ([countryCode isEqualToString:@"NL"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla2.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
                                                             message:@"Lees de velden. Dank je."
                                                            delegate:nil
@@ -133,6 +145,10 @@
         }
         
         else if ([language isEqualToString:@"nl-BE"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla2.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
                                                             message:@"Lees de velden. Dank je."
                                                            delegate:nil
@@ -141,6 +157,10 @@
             [alert show];
         }
         else if ([language isEqualToString:@"fr-BE"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla2.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte."
                                                             message:@"S’il vous plaît examiner les domaines. Je vous remercie."
                                                            delegate:nil
@@ -149,6 +169,10 @@
             [alert show];
         }
         else if ([countryCode isEqualToString:@"FR"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla2.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte."
                                                             message:@"S’il vous plaît examiner les domaines. Je vous remercie."
                                                            delegate:nil
@@ -157,12 +181,17 @@
             [alert show];
         }
         else{
+            prepantallaresultado.hidden=YES;
+            prepantalla2.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Has introducido algún dato erroneo."
                                                             message:@"Por favor, revisa los campos. Gracias."
                                                            delegate:nil
                                                   cancelButtonTitle:@"Cerrar"
                                                   otherButtonTitles:nil];
             [alert show];
+            
         }
         
        
@@ -460,6 +489,10 @@
         NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
         
         if ([countryCode isEqualToString:@"PT"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Introduziu algum dado incorreto."
                                                             message:@"Por favor, reveja os campos. Obrigado."
                                                            delegate:nil
@@ -468,6 +501,10 @@
             [alert show];
         }
         else if ([countryCode isEqualToString:@"GB"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"It seems that you entered an incorrect entry."
                                                             message:@"Please review the fields. Thank you."
                                                            delegate:nil
@@ -476,6 +513,10 @@
             [alert show];
         }
         else if ([countryCode isEqualToString:@"NL"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
                                                             message:@"Lees de velden. Dank je."
                                                            delegate:nil
@@ -485,6 +526,10 @@
         }
         
         else if ([language isEqualToString:@"nl-BE"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Het lijkt erop dat u een onjuiste invoer ingevoerd."
                                                             message:@"Lees de velden. Dank je."
                                                            delegate:nil
@@ -493,6 +538,10 @@
             [alert show];
         }
         else if ([language isEqualToString:@"fr-BE"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte."
                                                             message:@"S’il vous plaît examiner les domaines. Je vous remercie."
                                                            delegate:nil
@@ -501,6 +550,10 @@
             [alert show];
         }
         else if ([countryCode isEqualToString:@"FR"]){
+            prepantallaresultado.hidden=YES;
+            prepantalla.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Il semble que vous avez entré une entrée incorrecte.."
                                                             message:@"S’il vous plaît examiner les domaines. Je vous remercie."
                                                            delegate:nil
@@ -509,6 +562,10 @@
             [alert show];
         }
         else{
+            prepantallaresultado.hidden=YES;
+            prepantalla.hidden=NO;
+            peso.text=@"";
+            altura.text=@"";
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Has introducido algún dato erroneo."
                                                             message:@"Por favor, revisa los campos. Gracias."
                                                            delegate:nil

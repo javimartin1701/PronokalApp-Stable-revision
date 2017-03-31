@@ -21,6 +21,12 @@
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
     NSLog(@"%@",countryCode);
     
+
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
+    NSLog(@"%@",countryCode);
+    
+    
+    
     if ([countryCode isEqualToString:@"ES"]) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:901100262"]];
         NSLog(@"ESPAÑA");
@@ -54,14 +60,23 @@
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:707782012"]];
         NSLog(@"PT");
     }
-    else if ([countryCode isEqualToString:@"BE"]){
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:032224501"]];
-        NSLog(@"BE");
+    else if ([language isEqualToString:@"fr-BE"]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:070354712"]];
     }
-    else if ([countryCode isEqualToString:@"NL"]){
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0855605103"]];
-        NSLog(@"NL");
+    
+    else if ([language isEqualToString:@"nl-BE"]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:070354712"]];
     }
+    else if ([language isEqualToString:@"fr-BE"]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:070354712"]];
+    }
+    else if ([language isEqualToString:@"fr-LU"]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:070354712"]];
+    }
+    else if ([language isEqualToString:@"nl-NL"]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:070354712"]];
+    }
+
     else if ([countryCode isEqualToString:@"LU"]){
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:080029150"]];
         NSLog(@"LU");
@@ -87,9 +102,25 @@
         NSLog(@"ESPAÑA");
     }
     else if ([countryCode isEqualToString:@"AR"]){
-       
         
-        [self openMapToLatitude:-34.5963882	 longitude:-58.3842504];
+        
+        CLLocationCoordinate2D PronoKal;
+        PronoKal.latitude = -34.5964073;
+        PronoKal.longitude = -58.3840660;
+        MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
+        annotationPoint.coordinate = PronoKal;
+        annotationPoint.title = @"PronoKal";
+        annotationPoint.subtitle = @"";
+        [Localizacion addAnnotation:annotationPoint];
+        
+        
+        MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(PronoKal, 680, 680);
+        MKCoordinateRegion adjustedRegion = [Localizacion regionThatFits:viewRegion];
+        [Localizacion setRegion:adjustedRegion animated:YES];
+
+        Localizacion.hidden=NO;
+        cerrarMapa.hidden=NO;
+        
         
         NSLog(@"ARGENTINA");
     }
@@ -98,16 +129,76 @@
         NSLog(@"URUGAY");
     }
     else if ([countryCode isEqualToString:@"DO"]){
-        [self openMapToLatitude:18.4652314	 longitude:-69.92147];
+        
+        
+        CLLocationCoordinate2D PronoKal;
+        PronoKal.latitude = 18.4690815;
+        PronoKal.longitude = -69.9031932;
+        MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
+        annotationPoint.coordinate = PronoKal;
+        annotationPoint.title = @"PronoKal";
+        annotationPoint.subtitle = @"";
+        [Localizacion addAnnotation:annotationPoint];
+        
+        
+        MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(PronoKal, 680, 680);
+        MKCoordinateRegion adjustedRegion = [Localizacion regionThatFits:viewRegion];
+        [Localizacion setRegion:adjustedRegion animated:YES];
+        
+        Localizacion.hidden=NO;
+        cerrarMapa.hidden=NO;
+
+        
+        //[self openMapToLatitude:18.4652314	 longitude:-69.92147];
         NSLog(@"REPUBLICA DOM");
     }
     else if ([countryCode isEqualToString:@"MX"]){
-        [self openMapToLatitude:19.3696996	 longitude:-99.1788074];
+        
+        
+        CLLocationCoordinate2D PronoKal;
+        PronoKal.latitude = 19.3694629;
+        PronoKal.longitude = -99.1775504;
+        MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
+        annotationPoint.coordinate = PronoKal;
+        annotationPoint.title = @"PronoKal";
+        annotationPoint.subtitle = @"";
+        [Localizacion addAnnotation:annotationPoint];
+        
+        
+        MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(PronoKal, 680, 680);
+        MKCoordinateRegion adjustedRegion = [Localizacion regionThatFits:viewRegion];
+        [Localizacion setRegion:adjustedRegion animated:YES];
+        
+        Localizacion.hidden=NO;
+        cerrarMapa.hidden=NO;
+        
+        
+        
+        //[self openMapToLatitude:19.3696996	 longitude:-99.1788074];
         NSLog(@"MEXICO");
     }
 
     else if ([countryCode isEqualToString:@"GB"]){
-        [self openMapToLatitude:51.5173187	 longitude:-0.1484144];
+        
+        CLLocationCoordinate2D PronoKal;
+        PronoKal.latitude = 51.51729;
+        PronoKal.longitude = -0.1460829;
+        MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
+        annotationPoint.coordinate = PronoKal;
+        annotationPoint.title = @"PronoKal";
+        annotationPoint.subtitle = @"";
+        [Localizacion addAnnotation:annotationPoint];
+        
+        
+        MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(PronoKal, 680, 680);
+        MKCoordinateRegion adjustedRegion = [Localizacion regionThatFits:viewRegion];
+        [Localizacion setRegion:adjustedRegion animated:YES];
+        
+        Localizacion.hidden=NO;
+        cerrarMapa.hidden=NO;
+        
+        
+        //[self openMapToLatitude:51.5173187	 longitude:-0.1484144];
         NSLog(@"IR A UK");
     }
     
@@ -154,6 +245,7 @@
     NSString *url = [NSString stringWithFormat:@"http://maps.apple.com/maps?ll=%f,%f", lat, lon];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     
+    
 }
 
 -(IBAction)closeMapa:(id)sender{
@@ -165,6 +257,9 @@
 - (IBAction)mail:(id)sender {
     NSLocale *currentLocale = [NSLocale currentLocale];  // get the current locale.
     NSString *countryCode = [currentLocale objectForKey:NSLocaleCountryCode];
+    NSLog(@"%@",countryCode);
+    
+    NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     NSLog(@"%@",countryCode);
     // Email Subject
     NSString *emailTitle = @"Contacto a través de Pronokal App";
@@ -222,18 +317,24 @@
         toRecipents2 = [NSArray arrayWithObject:@"info.ch@pronokal.com"];
         NSLog(@"SUIZA");
     }
-    else if ([countryCode isEqualToString:@"BE"]){
+
+    else if ([language isEqualToString:@"nl-NL"]) {
         toRecipents2 = [NSArray arrayWithObject:@"info.belgie@pronokal.com"];
-        NSLog(@"BELGIUM");
     }
-    else if ([countryCode isEqualToString:@"NL"]){
-        toRecipents2 = [NSArray arrayWithObject:@"info.nederland@pronokal.com"];
-        NSLog(@"NEDERLAND");
+    else if ([language isEqualToString:@"fr-BE"]) {
+        toRecipents2 = [NSArray arrayWithObject:@"info.belgie@pronokal.com"];
     }
-    else if ([countryCode isEqualToString:@"LU"]){
-        toRecipents2 = [NSArray arrayWithObject:@"info.luxembourg@pronokal.com"];
-        NSLog(@"LUXEMBURG");
+    
+    else if ([language isEqualToString:@"nl-BE"]) {
+        toRecipents2 = [NSArray arrayWithObject:@"info.belgie@pronokal.com"];
     }
+    else if ([language isEqualToString:@"fr-LU"]) {
+        toRecipents2 = [NSArray arrayWithObject:@"info.belgie@pronokal.com"];
+    }
+    else if ([language isEqualToString:@"fr-BE"]) {
+        toRecipents2 = [NSArray arrayWithObject:@"info.belgie@pronokal.com"];
+    }
+    
 
 
 

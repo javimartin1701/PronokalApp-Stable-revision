@@ -29,6 +29,22 @@
         [compro loadRequest:request];
 
     }
+    else if ([language isEqualToString:@"es-DO"]) {
+        NSLog(@"Argentina");
+        NSString *website = @"http://www.pesosaludablepronokal.do";
+        NSURL *url = [NSURL URLWithString:website];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [compro loadRequest:request];
+        
+    }
+    else if ([language isEqualToString:@"es-MX"]) {
+        NSLog(@"Argentina");
+        NSString *website = @"http://www.comprometidosporunpesosaludable.com.mx";
+        NSURL *url = [NSURL URLWithString:website];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [compro loadRequest:request];
+        
+    }
     else{
         NSLog(@"España");
         NSString *website = @"http://comprometidosporunpesosaludable.com";
